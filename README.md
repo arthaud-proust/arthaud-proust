@@ -1,12 +1,14 @@
 # Hi, I am Arthaud 👋
 
-<img src="https://github-readme-stats.vercel.app/api?username=arthaud-proust&bg_color=20,e96443,904e95&title_color=fff&text_color=fff&custom_title=Here%20are%20my%20stats" alt="" />
+<img src="https://github-readme-stats.vercel.app/api?username=arthaud-proust&bg_color=20,e96443,904e95&title_color=fff&text_color=fff&custom_title=Here%20are%20my%20stats&hide=stars,prs" alt="" />
 
 # About me
 
 - ☕ I’m currently working on differents projects
 
 - 🌱 I’m learning back developpment
+
+- 🎓 I am a French student living in Bordeaux, passionate about computer science
 
 
 # Languages
