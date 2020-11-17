@@ -25,7 +25,7 @@
   <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-plain.svg" alt="nodejs" width="40" height="40"/> 
 </p>
 
-# App i use regularly
+# Others app i use
 <p align="left">
   <img src="https://devicons.github.io/devicon/devicon.git/icons/heroku/heroku-plain.svg" alt="heroku" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/visualstudio/visualstudio-plain.svg" alt="visual-studio" width="40" height="40"/>
