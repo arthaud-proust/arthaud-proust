@@ -10,16 +10,6 @@
 
 - 🎓 I am a French student living in Bordeaux, passionate about computer science
 
-# Highlighted websites
-
-I have made several websites, all of them touching a different subject.
-- [Bordeaux Photo](https://bordeaux-photo.fr)
-- [Lubbock Photos](https://lubbockphotos.com)
-- [Escalade à Montesquieu](https://escalade-montesquieu.fr)
-- [Rachel Bourgeois Psychologue](https://rachelbourgeois-psychologue.fr)
-- [My own website](https://arthaudproust.fr)
-- [Quoted](https://quoted.arthaud.dev)
-
 # Languages
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthaud-proust&layout=compact&hide=html&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&langs_count=7" alt="" />
 
