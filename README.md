@@ -18,4 +18,4 @@ Old projects or their old version.
 ### [Research & Development](https://github.com/arthaud-proust-rd)
 Proof-of-concepts, package or solution under development waiting to have a release...
 ### [Anything else](https://github.com/arthaud-proust?tab=repositories)
-Here there is "Le reste".
+Here there is *Le reste*.
