@@ -2,12 +2,12 @@
 
 ## About me
 I'm learning web developpment, design and other many things at [MMI Bordeaux](https://mmibordeaux.com).  
-I do an apprenticeship at [Mink](https://mink-agency.com) as web developper.  
+I'm currently working at [Mink](https://mink-agency.com) as web developper for an apprenticeship until 2024.  
   
 With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony... 
-But I love to work with
+And I love to work with
 - Hugo & Bootstrap for static websites, like [my portfolio](https://arthaudproust.fr)
-- Laravel & Tailwind for robust applications like [Quoted](https://quoted.arthaud.dev)
+- Laravel & Tailwind for more complete applications like [Escalade Montesquieu](https://escalade-montesquieu.fr)
 
 ## My work
 I organized my repositories with organizations (why not?), so they are :
