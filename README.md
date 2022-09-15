@@ -2,7 +2,7 @@
 
 ## About me
 I'm learning web developpment, design and other many things at [MMI Bordeaux](https://mmibordeaux.com).  
-I'm currently working at [Mink](https://mink-agency.com) as web developper for an apprenticeship until 2024.  
+I'm currently working at [Mink](https://mink-agency.com) as a web developper for an apprenticeship until 2024.  
   
 With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony... 
 And I love to work with
