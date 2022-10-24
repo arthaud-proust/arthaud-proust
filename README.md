@@ -15,6 +15,10 @@ I organized my repositories with organizations
 Proof-of-concepts, packages or solutions under development
 ### [Professional](https://github.com/arthaud-proust-pro)
 Some professionals projects (most of them are privates) 
+### [2zinzins](https://github.com/2zinzins)
+Superb project presenting the trip realized by friends to collect money for an association.
+### [MMI Bordeaux projects](https://github.com/studio-beauvoir)
+Projects done with a fabulous team of students
 ### [Archive](https://github.com/arthaud-proust-archi)
 Old projects or their old version.
 
