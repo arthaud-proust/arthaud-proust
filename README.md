@@ -7,15 +7,16 @@ I'm currently working at [Mink](https://mink-agency.com) as a web developper for
 With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony... 
 And I love to work with
 - Hugo & Bootstrap for static websites, like [my portfolio](https://arthaudproust.fr)
-- Laravel & Tailwind for more complete applications like [Escalade Montesquieu](https://escalade-montesquieu.fr)
+- Laravel & Tailwind for more complete applications like [Fraicheur de Paris](https://www.fraicheurdeparis.fr/) (at Mink) or [Escalade Montesquieu](https://escalade-montesquieu.fr) (personnal project)
 
 ## My work
-I organized my repositories with organizations (why not?), so they are :
+I organized my repositories with organizations
+### [Research & Development](https://github.com/arthaud-proust-rd)
+Proof-of-concepts, packages or solutions under development
 ### [Professional](https://github.com/arthaud-proust-pro)
-All professionals projects I do
+Some professionals projects (most of them are privates) 
 ### [Archive](https://github.com/arthaud-proust-archi)
 Old projects or their old version.
-### [Research & Development](https://github.com/arthaud-proust-rd)
-Proof-of-concepts, package or solution under development waiting to have a release...
+
 ### [Anything else](https://github.com/arthaud-proust?tab=repositories)
-Here there is *Le reste*.
+Here there is all my uncategorized work.
