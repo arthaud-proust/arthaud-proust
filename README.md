@@ -4,8 +4,8 @@
 I'm learning web developpment, design and other many things at [MMI Bordeaux](https://mmibordeaux.com).  
 I'm currently working at [Mink](https://mink-agency.com) as a web developper for an apprenticeship until 2024.  
   
-With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony... 
-And I love to work with
+With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony...   
+I love to work with :
 - Hugo & Bootstrap for static websites, like [my portfolio](https://arthaudproust.fr)
 - Laravel & Tailwind for more complete applications like [Fraicheur de Paris](https://www.fraicheurdeparis.fr/) (at Mink) or [Escalade Montesquieu](https://escalade-montesquieu.fr) (personnal project)
 
