@@ -6,7 +6,7 @@ I'm currently working at [Mink](https://mink-agency.com) as a web developper for
   
 With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony...   
 I love to work with :
-- Hugo & Bootstrap for static websites, like [my portfolio](https://arthaudproust.fr)
+- Hugo & Bootstrap/Tailwind for static websites, like [my portfolio](https://arthaudproust.fr)
 - Laravel, VueJs & Tailwind for more complete applications like [Fraicheur de Paris](https://www.fraicheurdeparis.fr/) (at Mink) or [Escalade Montesquieu](https://escalade-montesquieu.fr) (personnal project)
 
 ## My work
