@@ -17,8 +17,10 @@ Proof-of-concepts, packages or solutions under development
 Some professionals projects (most of them are privates) 
 ### [2zinzins](https://github.com/2zinzins)
 Superb project presenting the trip realized by friends to collect money for an association.
-### [MMI Bordeaux projects](https://github.com/studio-beauvoir)
+### [Studio Beauvoir at MMI](https://github.com/studio-beauvoir)
 Projects done with a fabulous team of students
+### [MMI Bordeaux projects](https://github.com/arthaud-proust-mmi)
+Other projects done with different teams
 ### [Archive](https://github.com/arthaud-proust-archive)
 Old projects or their old version.
 
