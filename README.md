@@ -8,4 +8,4 @@ Currently working at [Mink](https://mink-agency.com) as web developper (Laravel 
 With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony...   
 I work with :
 - Hugo & Bootstrap/Tailwind for static websites, like [my portfolio](https://arthaudproust.fr)
-- Laravel, VueJs & Tailwind for more complete applications like [Fraicheur de Paris](https://www.fraicheurdeparis.fr/) (at Mink) or [Escalade Montesquieu](https://escalade-montesquieu.fr) (personnal project)
+- Laravel, VueJs & Tailwind for more complete applications like [Fraicheur de Paris](https://www.fraicheurdeparis.fr/), [OVAL3 Game part](https://oval3.game) (at Mink) or [Escalade Montesquieu](https://escalade-montesquieu.fr) (personnal project)
