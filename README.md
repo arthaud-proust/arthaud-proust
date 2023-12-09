@@ -1,4 +1,4 @@
-Learning web developpment, software architecture, UX design, and other many things
+Learning web developpment, software architecture, UX design, and many other things  
 Studying at [MMI Bordeaux](https://mmibordeaux.com).  
 Currently working at [Mink](https://mink-agency.com) as web developper (Laravel & VueJs) for an apprenticeship until 2024.  
   
