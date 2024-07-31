@@ -1,9 +1,24 @@
-Learning web developpment, software architecture, UX design, and many other things  
-Studying at [MMI Bordeaux](https://mmibordeaux.com).  
-Currently working at [Mink](https://mink-agency.com) as web developper (Laravel & VueJs) for an apprenticeship until 2024.  
-  
-With personnal and school projects, I discovered a lot of technologies like Docker, Traefik, Kubernetes, VueJs, React, Angular, Symfony...   
-I work with :
-- [Hugolify](https://hugolify.com) for static websites, participating in the open-source project
-- vanilla Hugo & Bootstrap/Tailwind for static websites, like [my portfolio](https://arthaudproust.fr)
-- Laravel, VueJs & Tailwind for more complete applications like [Fraicheur de Paris](https://www.fraicheurdeparis.fr/), [OVAL3 Game part](https://oval3.game) (at Mink) or [Escalade Montesquieu](https://escalade-montesquieu.fr) (personnal project)
+Développeur, j'ai des compétences diversifiées en design, SEO, gestion de projet, lead technique, produit, architecture logicielle.
+
+## Formation
+- 2021-2024 [BUT Métiers du Multimédia et de l'Internet Bordeaux](https://mmibordeaux.com).  
+- 2024-2027 [Ingénieur en apprentissage à JUNIA ISEN Bordeaux](https://www.junia.com/fr/formations-admissions/alternance-et-apprentissage/alternance-ingenieur-numerique/).  
+
+## Projets étudiants
+- Au Musée des Beaux-Arts de Bordeaux
+  - Exposition temporaire lors des Bacchanight : [Too Well Stolen](https://too-well-stolen.vercel.app/)
+  - Exposition permanente : Table interactive (Assurance qualité et tech lead)
+- [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/)
+- [1 minute dans le monde](https://1minute.lesorchideesrouges.org/)
+- [Find the monument](https://findthemonument.netlify.app/)
+- [Pigeon](https://pigeon.ovh/login)
+- [Safe'n'Tech](https://safe-n-tech.netlify.app/) (Réflexion architecture et développement)
+- [Les voix errantes de Kyiv](https://les-voix-errantes-de-kyiv.fr/) (Expérience Olena + liste des expériences)
+
+## Expériences
+- Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
+  - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
+  - [Coach by Co](https://coachbyco.fr)
+- 2022-2024 Développeur web (Laravel&VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
+
+Plus sur [arthaudproust.fr](https://arthaudproust.fr)
