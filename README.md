@@ -15,6 +15,10 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
 - [Safe'n'Tech](https://safe-n-tech.netlify.app/) (Réflexion architecture et développement)
 - [Les voix errantes de Kyiv](https://les-voix-errantes-de-kyiv.fr/) (Expérience Olena + liste des expériences)
 
+## Projets communautaires
+- Template de portfolio simple
+- Extension VSCode Hugo Partials Defs
+
 ## Expériences
 - Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
   - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
