@@ -20,5 +20,7 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
   - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
   - [Coach by Co](https://coachbyco.fr)
 - 2022-2024 Développeur web (Laravel&VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
+  - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (Passage de VueJS 2 à Blade pour augmenter la sécurité)
+  - Partie jeu de Oval3
 
 Plus sur [arthaudproust.fr](https://arthaudproust.fr)
