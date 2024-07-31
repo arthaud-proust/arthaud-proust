@@ -5,9 +5,9 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
 - 2024-2027 [Ingénieur en apprentissage à JUNIA ISEN Bordeaux](https://www.junia.com/fr/formations-admissions/alternance-et-apprentissage/alternance-ingenieur-numerique/).  
 
 ## Projets étudiants
-- Au Musée des Beaux-Arts de Bordeaux
+- Au musée des Beaux-Arts de Bordeaux
   - Exposition temporaire lors des Bacchanight : [Too Well Stolen](https://too-well-stolen.vercel.app/)
-  - Exposition permanente : Table interactive (Assurance qualité et tech lead)
+  - Exposition permanente : Table interactive (Assurance qualité, tech lead, puis installation au musée)
 - [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/)
 - [1 minute dans le monde](https://1minute.lesorchideesrouges.org/)
 - [Find the monument](https://findthemonument.netlify.app/)
