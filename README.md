@@ -16,8 +16,8 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
 - [Les voix errantes de Kyiv](https://les-voix-errantes-de-kyiv.fr/) (Expérience Olena + liste des expériences)
 
 ## Projets communautaires
-- Template de portfolio simple
-- Extension VSCode Hugo Partials Defs
+- [Template de portfolio simple](https://github.com/arthaud-proust/simple-portfolio)
+- [Extension VSCode Hugo Partials Defs](https://marketplace.visualstudio.com/items?itemName=arthaud-proust.hugo-partials-defs)
 
 ## Expériences
 - Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
@@ -25,6 +25,7 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
   - [Coach by Co](https://coachbyco.fr)
 - 2022-2024 Développeur web (Laravel&VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
   - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (Passage de VueJS 2 à Blade pour augmenter la sécurité)
-  - Partie jeu de Oval3
+  - Partie jeu du site Oval3
+  - Application Shopify pour synchroniser des données entre Clic Logistic et leur shops
 
 Plus sur [arthaudproust.fr](https://arthaudproust.fr)
