@@ -17,6 +17,12 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
   - Partie jeu du site Oval3 (2 devs en front)
   - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
 
+## Projets personnels
+- [clipboard.arthaud.dev](https://clipboard.arthaud.dev) : Copiez/collez des fichier et du texte facilement entre vos appareils
+- [rummikub.arthaud.dev](https://rummikub.arthaud.dev) : Jeu de société Rummikub en ligne
+- [preview.arthaud.dev](https://preview.arthaud.dev) : Prévisualisez vos photos sur plusieurs appareils en même temps
+- [metatags.arthaud.dev](https://metatags.arthaud.dev) : Générez les meta-tags pour vos sites
+
 ## Projets étudiants
 - Au musée des Beaux-Arts de Bordeaux
   - Exposition temporaire lors des Bacchanight : [Too Well Stolen](https://too-well-stolen.vercel.app/) (dev & ops)
