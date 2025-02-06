@@ -18,6 +18,7 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
   - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
 
 ## Projets personnels
+- [dressing.arthaud.dev](https://dressing.arthaud.dev): Aider les enfants ayant plusieurs domiciles (parents séparés, internat) à organiser leur valise
 - [clipboard.arthaud.dev](https://clipboard.arthaud.dev) : Copiez/collez des fichier et du texte facilement entre vos appareils
 - [rummikub.arthaud.dev](https://rummikub.arthaud.dev) : Jeu de société Rummikub en ligne
 - [preview.arthaud.dev](https://preview.arthaud.dev) : Prévisualisez vos photos sur plusieurs appareils en même temps
