@@ -10,7 +10,9 @@ Développeur, j'ai des compétences diversifiées en design, SEO, gestion de pro
   - [Coach by Co](https://coachbyco.fr)
   - [Guilhem Granier](https://guilhemgranier.fr)
   - [Lubbock Photos](https://lubbockphotos.com)
-- 2024-2027 Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
+- 2024-2027 Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com) 
+  - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
+  - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
 - 2022-2024 Développeur web (Laravel & VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
   - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
   - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (2 devs, passage de VueJS 2 à Blade pour augmenter la sécurité)
