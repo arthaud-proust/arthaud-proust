@@ -68,7 +68,6 @@ Je me forme constamment, en lisant et en expérimentant.
   - [Too Well Stolen lors des Bacchanight 2023](https://too-well-stolen.vercel.app/) <p>Dev & ops</p>
 - [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/) <p>Dev & contenu</p>
 - [1 minute dans le monde](https://1minute.lesorchideesrouges.org/) <p>Dev & ops</p>
-- [Find the monument](https://findthemonument.netlify.app/) <p>Dev & ops</p>
 - [Pigeon](https://pigeon.ovh/login)
   <p>Dev & ops</p>
 - [Safe'n'Tech](https://safe-n-tech.netlify.app/)
@@ -79,7 +78,7 @@ Je me forme constamment, en lisant et en expérimentant.
 
 - 2024-2027 <p>[Ingénieur en apprentissage à JUNIA ISEN Bordeaux](https://www.junia.com/fr/formations-admissions/alternance-et-apprentissage/alternance-ingenieur-numerique/)</p>
 - 2021-2024 <p>[BUT Métiers du Multimédia et de l'Internet Bordeaux](https://mmibordeaux.com)</p>
-- 2018-2021 <p>[Bac général Lycée Montesquieu - Maths, NSI, SI, Physique - Mention TB](https://mmibordeaux.com)</p>
+- 2018-2021 <p>Bac général Lycée Montesquieu - Maths, NSI, SI, Physique - Mention TB</p>
 - 2016 <p>[Jeunes-Science Bordeaux](https://www.jeunes-science.asso.fr/)</p>
 
 ## Certifications
