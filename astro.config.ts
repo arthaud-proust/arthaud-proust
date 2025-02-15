@@ -13,7 +13,6 @@ export default defineConfig({
     "/resources": "/",
     "/readings": "/",
     "/projects": "/",
-    "/mentions-legales": "/",
     "/site-map": "/",
     "/projects/nuit-du-musba": "/",
     "/projects/life": "/",

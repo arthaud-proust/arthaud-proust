@@ -80,10 +80,12 @@ const heroUrl = "/hero.jpg";
 		<meta property="og:image" content={heroUrl} />
 	</head>
 	<body>
-		<slot />
+		<main>
+			<slot />
+		</main>
 
 		<footer>
-			Tous droits réservés 2024 à {new Date().getFullYear()}
+			<p>© 2020-{new Date().getFullYear()} Arthaud Proust Tous droits réservés <a href="/mentions-legales">Mentions légales</a></p>
 		</footer>
 	</body>
 </html>

@@ -17,12 +17,20 @@ $dark: #000001;
 }
 
 body {
+  background: $light;
+  color: $dark;
+}
+
+main,
+footer {
   margin: 0 auto;
   max-width: 600px;
   padding: 1rem;
+}
+
+main {
   padding-top: 20vh;
-  background: $light;
-  color: $dark;
+  min-height: 100dvh;
 }
 
 h1 {
@@ -37,10 +45,6 @@ h2 {
   font-size: clamp(1.8rem, 0.925rem + 2.8vw, 2.5rem);
   font-weight: 600;
   line-height: 1.2;
-}
-h1 + h2 {
-  margin-top: 0.5rem;
-  font-weight: 400;
 }
 
 h3 {
