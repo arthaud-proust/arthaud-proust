@@ -84,4 +84,17 @@ a {
 
 footer {
   margin-top: 12rem;
+  text-align: center;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
 }
