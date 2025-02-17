@@ -1,9 +1,5 @@
 @use "reset";
-
-$primary: #cb3115;
-$secondary: #ffe0d9;
-$light: #fffaf8;
-$dark: #000001;
+@use "variables";
 
 :root {
   font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -17,8 +13,8 @@ $dark: #000001;
 }
 
 body {
-  background: $light;
-  color: $dark;
+  background: variables.$light;
+  color: variables.$dark;
 }
 
 main,
@@ -77,7 +73,7 @@ ul {
 }
 
 a {
-  color: $primary;
+  color: variables.$primary;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 }

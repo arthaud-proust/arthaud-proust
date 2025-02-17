@@ -1,0 +1,186 @@
+@use "../variables"
+
+$color: variables.$primary
+$bg: variables.$primary
+$accent: variables.$secondary
+$cover: variables.$secondary
+
+#cursor
+    div
+        --translateX: -50%
+        --translateY: -50%
+        --translateZ: 0
+        --rotateX: 0
+        --rotateY: 0
+        --rotateZ: 0
+        --hoverAltContent: " "
+
+        z-index: 900000
+        pointer-events: none
+        position: fixed
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        height: 0
+        width: 0
+        opacity: 1
+
+        transition: height .5s, width .5s, opacity .3s, transform .3s, border-radius .3s, background .3s, color .3s, mix-blend-mode .3s
+
+        top: 0
+        left: 0
+        transform: translateX(var(--translateX)) translateY(var(--translateY)) translateZ(var(--translateZ)) rotateX(var(--rotateX)) rotateY(var(--rotateY)) rotateZ(var(--rotateZ))
+
+    &[data-debug="true"]
+        .pointer
+            outline: 2px solid red
+
+        .outer
+            outline: 2px solid green
+
+    &[data-mode="touch"],
+    &[data-mode="mouse"]
+        &[data-state="cover-page"]
+            .pointer
+                opacity: 1
+                width: 210vmax
+                height: 210vmax
+                border-radius: 100%
+                transition-timing-function: cubic-bezier(.64,-0.03,.97,.92)
+                background: $cover
+
+    &[data-mode="touch"]
+        .outer
+            display: none
+
+    // States
+    &[data-mode="mouse"]
+        div.outer
+            width: 3.5rem
+            height: 3.5rem
+
+            border: 2px solid $color
+            border-radius: 100%
+            z-index: 900001
+
+        div.pointer
+            width: 2rem
+            height: 2rem
+
+            background: $color
+            border-radius: 4rem
+
+        &[data-state="hover"]
+            .pointer
+                height: 4rem
+                width: 6rem
+                border-radius: 99999rem
+                background: transparent
+                border: 2px solid $color
+                transition: top .3s, left .3s, height .5s, width .5s, opacity .3s, transform .3s, border-radius .3s, background .3s, color .3s, mix-blend-mode .3s
+
+            .outer
+                height: 1rem
+                width: 1rem
+                background: $bg
+                --rotateZ: 90deg
+
+        &[data-state="show-more"]
+            .pointer
+                width: 3rem
+                height: 3rem
+
+                &::after
+                    content: ' '
+                    height: 1.3rem
+                    width: 1.3rem
+                    border-radius: 100%
+                    position: relative
+                    margin: auto
+                    display: block
+                    background: variables.$dark
+
+            .outer
+                width: 8rem
+                height: 3rem
+                border-radius: 100%
+
+        &[data-state="show-less"]
+            .pointer
+                width: 3rem
+                height: 2rem
+
+                &::after
+                    content: ' '
+                    height: 1.3rem
+                    width: 1.3rem
+                    border-radius: 100%
+                    position: relative
+                    margin: auto
+                    display: block
+                    background: variables.$dark
+
+            .outer
+                width: 8rem
+                height: 2rem
+                border-radius: 100%
+
+        &[data-state="text"]
+            .pointer
+                height: 10rem
+                width: 10rem
+                border-radius: 100%
+                background: $accent
+
+            .outer
+                height: 8rem
+                width: 8rem
+                border: none
+
+                &::after
+                    content: var(--hoverText)
+                    position: relative
+                    margin: auto
+                    font-size: 2rem
+                    font-weight: bold
+                    display: block
+                    color: $bg
+
+        &[data-state="active"]
+            .pointer
+                width: 4rem
+                height: 4rem
+
+            .outer
+                width: 5rem
+                height: 5rem
+                border-radius: 100%
+
+        &[data-state="activeable-x"]
+            .pointer
+                width: 6rem
+                height: 3rem
+                border-radius: 2rem
+                &::after
+                    content: '<>'
+                    position: relative
+                    margin: auto
+                    font-size: 3rem
+                    font-weight: bold
+                    display: block
+                    color: $accent
+
+            .outer
+                width: 7rem
+                height: 4rem
+                border-radius: 2rem
+
+        &[data-state="hidden"],
+        &[disabled]
+            div
+                height: 0rem
+                width: 0rem
+                opacity: 0
