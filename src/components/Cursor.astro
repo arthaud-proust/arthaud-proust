@@ -104,9 +104,9 @@ import "@/assets/styles/components/cursor.sass";
             });
 
             layer.element.style.width =
-              hvrElCoords.width * 1.2 + "px";
+              `calc(${hvrElCoords.width}px + var(--hoverPadding))`;
             layer.element.style.height =
-              hvrElCoords.height * 1.5 + "px";
+              `calc(${hvrElCoords.height}px + var(--hoverPadding))`;
           }
           layer.element.style.left = layer.position.x + "px";
           layer.element.style.top = layer.position.y + "px";
