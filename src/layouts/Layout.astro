@@ -1,15 +1,15 @@
 ---
-import "@/assets/styles/style.scss";
+import "../assets/styles/style.sass";
 import Cursor from "@/components/Cursor.astro";
 
 interface Props {
-    title?: string;
-    description?: string;
+  title?: string;
+  description?: string;
 }
 
 const { title = "Arthaud Proust" } = Astro.props;
 const {
-    description = "Développeur à Bordeaux, j'ai des compétences diversifiées en design, SEO, accessibilité, gestion de projet, lead technique, produit et en architecture logicielle.",
+  description = "Développeur à Bordeaux, j'ai des compétences diversifiées en design, SEO, accessibilité, gestion de projet, lead technique, produit et en architecture logicielle."
 } = Astro.props;
 
 const author = "Arthaud Proust";
@@ -18,107 +18,107 @@ const heroUrl = "/hero.jpg";
 
 <!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="all" />
-        <meta name="generator" content={Astro.generator} />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="all" />
+  <meta name="generator" content={Astro.generator} />
 
-        <meta name="author" content={author} />
-        <meta name="owner" content={author} />
-        <meta name="language" content="fr" />
-        <meta http-equiv="content-language" content="fr" />
+  <meta name="author" content={author} />
+  <meta name="owner" content={author} />
+  <meta name="language" content="fr" />
+  <meta http-equiv="content-language" content="fr" />
 
-        <link
-            rel="icon"
-            type="image/png"
-            href="/favicon-96x96.png"
-            sizes="96x96"
-        />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-        />
-        <meta name="apple-mobile-web-app-title" content={title} />
-        <link rel="manifest" href="/site.webmanifest" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/favicon-96x96.png"
+    sizes="96x96"
+  />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/apple-touch-icon.png"
+  />
+  <meta name="apple-mobile-web-app-title" content={title} />
+  <link rel="manifest" href="/site.webmanifest" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap"
-            rel="stylesheet"
-        />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap"
+    rel="stylesheet"
+  />
 
-        <script type="application/ld+json">
-            {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "address": "Bordeaux",
-                "logo": "/logo.png",
-                "name": "Arthaud Proust",
-                "sameAs": [
-                    "https://www.linkedin.com/in/arthaud-proust/",
-                    "https://github.com/arthaud-proust",
-                    "https://www.instagram.com/arthaudproust/",
-                    "https://x.com/arthaud_proust"
-                ],
-                "url": "https://arthaudproust.fr"
-            }
-        </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "address": "Bordeaux",
+      "logo": "/logo.png",
+      "name": "Arthaud Proust",
+      "sameAs": [
+        "https://www.linkedin.com/in/arthaud-proust/",
+        "https://github.com/arthaud-proust",
+        "https://www.instagram.com/arthaudproust/",
+        "https://x.com/arthaud_proust"
+      ],
+      "url": "https://arthaudproust.fr"
+    }
+  </script>
 
-        <title>{title}</title>
-        <meta name="twitter:title" content={title} />
-        <meta property="og:title" content={title} />
-        <meta name="apple-mobile-web-app-title" content={title} />
+  <title>{title}</title>
+  <meta name="twitter:title" content={title} />
+  <meta property="og:title" content={title} />
+  <meta name="apple-mobile-web-app-title" content={title} />
 
-        <meta name="description" content={description} />
-        <meta property="og:description" content={description} />
-        <meta name="twitter:description" content={description} />
+  <meta name="description" content={description} />
+  <meta property="og:description" content={description} />
+  <meta name="twitter:description" content={description} />
 
-        <link rel="canonical" href={Astro.url} />
-        <meta property="twitter:url" content={Astro.url} />
-        <meta property="og:url" content={Astro.url} />
+  <link rel="canonical" href={Astro.url} />
+  <meta property="twitter:url" content={Astro.url} />
+  <meta property="og:url" content={Astro.url} />
 
-        <meta name="url" content={Astro.site} />
-        <meta name="identifier-URL" content={Astro.site} />
+  <meta name="url" content={Astro.site} />
+  <meta name="identifier-URL" content={Astro.site} />
 
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content={author} />
-        <meta property="og:locale" content="fr" />
-        <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={author} />
+  <meta property="og:locale" content="fr" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-        <meta name="twitter:image" content={heroUrl} />
-        <meta property="og:image" content={heroUrl} />
-    </head>
-    <body>
-        <main>
-            <slot />
-        </main>
+  <meta name="twitter:image" content={heroUrl} />
+  <meta property="og:image" content={heroUrl} />
+</head>
+<body>
+<main>
+  <slot />
+</main>
 
-        <footer>
-            <nav>
-                <a data-cursor="show-more" href="https://github.arthaud.dev">
-                    Github
-                </a>
-                <a data-cursor="show-more" href="https://passeport.arthaud.dev">
-                    Passeport
-                </a>
-                <a data-cursor="show-more" href="https://linkedin.arthaud.dev">
-                    LinkedIn
-                </a>
-                <a data-cursor="show-more" href="https://archive.arthaud.dev">
-                    Archive
-                </a>
-            </nav>
-            <p>
-                © 2020-{new Date().getFullYear()} Arthaud Proust Tous droits réservés
-                <a href="/mentions-legales">Mentions légales</a>
-            </p>
-        </footer>
+<footer>
+  <nav>
+    <a data-cursor="show-more" href="https://github.arthaud.dev">
+      Github
+    </a>
+    <a data-cursor="show-more" href="https://passeport.arthaud.dev">
+      Passeport
+    </a>
+    <a data-cursor="show-more" href="https://linkedin.arthaud.dev">
+      LinkedIn
+    </a>
+    <a data-cursor="show-more" href="https://archive.arthaud.dev">
+      Archive
+    </a>
+  </nav>
+  <p>
+    © 2020-{new Date().getFullYear()} Arthaud Proust Tous droits réservés
+    <a href="/mentions-legales">Mentions légales</a>
+  </p>
+</footer>
 
-        <Cursor />
-    </body>
+<Cursor />
+</body>
 </html>

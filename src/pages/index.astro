@@ -1,24 +1,48 @@
 ---
-import portrait from '@/assets/images/arthaud-proust-portrait.jpg';
-import Layout from '@/layouts/Layout.astro';
-import Image from 'astro/components/Image.astro';
-import { Content as ReadmeContent } from '~/README.md';
+import portrait from "@/assets/images/arthaud-proust-portrait.jpg";
+import Layout from "@/layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
+import { Content as ReadmeContent } from "~/README.md";
 ---
 
 <Layout>
-	<Image src={portrait} alt="" widths={[240, 540]} quality='mid' sizes={`(max-width: 360px) 240px, 540px`} />
-	<ReadmeContent/>
+  <Image
+    src={portrait}
+    alt=""
+    widths={[240, 540]}
+    quality="mid"
+    sizes={`(max-width: 360px) 240px, 540px`}
+  />
+  <ReadmeContent />
 </Layout>
 
-<style is:global>
-	img {
-		width: 40%;
-		height: auto;
-		margin-right: auto;
-	}
+<style is:global lang="sass">
+    img
+        width: 40%
+        height: auto
+        margin-right: auto
 
-	h1 + h2 {
-		margin-top: 0.5rem;
-		font-weight: 400;
-	}
+    h1 + h2
+        margin-top: 0.5rem
+        font-weight: 400
+
+    #projets-étudiants
+        + ul
+            li
+                a
+                    display: block
+
+    #certifications,
+    #formation
+        + ul
+            margin-left: 0
+
+            li
+                display: flex
+                gap: 2rem
+
+                span
+                    width: 6rem
+                    flex-shrink: 0
+                    white-space: nowrap
 </style>

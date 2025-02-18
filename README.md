@@ -2,7 +2,8 @@
 
 ## Je conçois, design et modélise des solutions
 
-Développeur à Bordeaux, j'ai des compétences diversifiées en design, SEO, accessibilité, gestion de projet, lead technique, produit et en architecture logicielle.
+Développeur à Bordeaux, j'ai des compétences diversifiées en design, SEO, accessibilité, gestion de projet, lead technique, produit et en architecture
+logicielle.
 
 J'aime la qualité, le partage et la recherche.
 
@@ -11,19 +12,20 @@ Je me forme constamment, en lisant et en expérimentant.
 ## Expériences pro
 
 - Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
-  - [Coach by Co](https://coachbyco.fr)
-  - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
-  - [Psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/)
-  - [Lubbock Photos](https://lubbockphotos.com)
-  - [Guilhem Granier](https://guilhemgranier.fr)
+    - [Coach by Co](https://coachbyco.fr)
+    - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
+    - [Psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/)
+    - [Lubbock Photos](https://lubbockphotos.com)
+    - [Guilhem Granier](https://guilhemgranier.fr)
 - 2024-2027 Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
-  - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
-  - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
+    - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
+    - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
 - 2022-2024 Développeur web (Laravel & VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
-  - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
-  - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (2 devs, passage de VueJS 2 à Blade pour augmenter la sécurité)
-  - Partie jeu du site Oval3 (2 devs en front)
-  - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
+    - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
+    - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (2 devs, passage de VueJS 2 à Blade pour augmenter la
+      sécurité)
+    - Partie jeu du site Oval3 (2 devs en front)
+    - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
 
 ## Projets personnels
 
@@ -57,31 +59,36 @@ Je me forme constamment, en lisant et en expérimentant.
 
 ## Projets étudiants
 
-### JUNIA Bordeaux
+### Junia Bordeaux
 
 - [Échecs en C](https://github.com/arthaud-proust/c-chess)
 
 ### MMI Bordeaux
 
 - Expériences interactives au musée des Beaux-Arts de Bordeaux
-  - [Table interactive dans l'entrée du musée durant 1 an](https://nuit-du-musba.mmibordeaux.com/) Assurance qualité, architecture, ops, tech lead, puis installation au musée
-  - [Too Well Stolen lors des Bacchanight 2023](https://too-well-stolen.vercel.app/) <p>Dev & ops</p>
-- [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/) <p>Dev & contenu</p>
-- [1 minute dans le monde](https://1minute.lesorchideesrouges.org/) <p>Dev & ops</p>
-- [Pigeon](https://pigeon.ovh/login)
-  <p>Dev & ops</p>
-- [Safe'n'Tech](https://safe-n-tech.netlify.app/)
-  <p>Réflexion architecture et dev & ops</p>
-- [Les voix errantes de Kyiv](https://les-voix-errantes-de-kyiv.fr/) <p>Dev expérience Olena et liste des expériences</p>
+    - [Table interactive dans l'entrée du musée durant 1 an](https://nuit-du-musba.mmibordeaux.com/) Assurance qualité, architecture, ops, tech lead,
+      puis installation au musée
+    - [Too Well Stolen lors des Bacchanight 2023](https://too-well-stolen.vercel.app/) Dev & ops
+- [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/) Dev & contenu
+- [1 minute dans le monde](https://1minute.lesorchideesrouges.org/) Dev & ops
+- [Pigeon](https://pigeon.ovh/login) Dev & ops
+- [Safe'n'Tech](https://safe-n-tech.netlify.app/) Réflexion architecture et dev & ops
+- [Les voix errantes de Kyiv](https://les-voix-errantes-de-kyiv.fr/) Dev expérience Olena et liste des expériences
 
 ## Formation
 
-- 2024-2027 <p>[Ingénieur en apprentissage à JUNIA ISEN Bordeaux](https://www.junia.com/fr/formations-admissions/alternance-et-apprentissage/alternance-ingenieur-numerique/)</p>
-- 2021-2024 <p>[BUT Métiers du Multimédia et de l'Internet Bordeaux](https://mmibordeaux.com)</p>
-- 2018-2021 <p>Bac général Lycée Montesquieu - Maths, NSI, SI, Physique - Mention TB</p>
-- 2016 <p>[Jeunes-Science Bordeaux](https://www.jeunes-science.asso.fr/)</p>
+- <span>2024-2027</span>
+  [Ingénieur en apprentissage à JUNIA ISEN Bordeaux](https://www.junia.com/fr/formations-admissions/alternance-et-apprentissage/alternance-ingenieur-numerique/)
+- <span>2021-2024</span>
+  [BUT Métiers du Multimédia et de l'Internet Bordeaux](https://mmibordeaux.com)
+- <span>2018-2021</span>
+  Bac général Lycée Montesquieu - Maths, NSI, SI, Physique - Mention TB
+- <span>2016</span>
+  [Jeunes-Science Bordeaux](https://www.jeunes-science.asso.fr/)
 
 ## Certifications
 
-- 2024 <p>[Développement 3D - ThreeJs Journey](https://threejs-journey.com/certificate/view/37429)</p>
-- 2023 <p>[Expert qualité web - Oquast](https://directory.opquast.com/fr/certificates/arthaud-proust/)</p>
+- <span>2024</span>
+  [Développement 3D - ThreeJs Journey](https://threejs-journey.com/certificate/view/37429)
+- <span>2023</span>
+  [Expert qualité web - Oquast](https://directory.opquast.com/fr/certificates/arthaud-proust/)
