@@ -6,14 +6,8 @@ import { Content as ReadmeContent } from "~/README.md";
 ---
 
 <Layout>
-  <Image
-    src={portrait}
-    alt=""
-    widths={[240, 540]}
-    quality="mid"
-    sizes={`(max-width: 360px) 240px, 540px`}
-  />
-  <ReadmeContent />
+    <Image src={portrait} alt="" widths={[300]} quality="mid" />
+    <ReadmeContent />
 </Layout>
 
 <style is:global lang="sass">
@@ -27,22 +21,22 @@ import { Content as ReadmeContent } from "~/README.md";
         font-weight: 400
 
     #projets-étudiants
-        + ul
-            li
-                a
-                    display: block
+    + ul
+        li
+            a
+                display: block
 
     #certifications,
     #formation
-        + ul
-            margin-left: 0
+    + ul
+        margin-left: 0
 
-            li
-                display: flex
-                gap: 2rem
+        li
+            display: flex
+            gap: 2rem
 
-                span
-                    width: 6rem
-                    flex-shrink: 0
-                    white-space: nowrap
+            span
+                width: 6rem
+                flex-shrink: 0
+                white-space: nowrap
 </style>
