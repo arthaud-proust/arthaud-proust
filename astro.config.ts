@@ -1,5 +1,7 @@
 import { defineConfig } from "astro/config";
 
+const KB = 1024;
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://arthaudproust.fr",
@@ -22,5 +24,10 @@ export default defineConfig({
     "/projects/web-dressing": "/",
     "/projects/preview": "/",
     "/projects/porte-telephone-en-bois": "/",
+  },
+  vite: {
+    build: {
+      assetsInlineLimit: 10 * KB,
+    },
   },
 });
