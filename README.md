@@ -37,7 +37,7 @@ Je me forme constamment, en lisant et en expérimentant.
 
 </article>
 
-<article aria-describedby="formation">
+<article aria-describedby="formation"  class="list-with-dates">
 
 ## Formation
 
@@ -52,7 +52,7 @@ Je me forme constamment, en lisant et en expérimentant.
 
 </article>
 
-<article aria-describedby="certifications">
+<article aria-describedby="certifications" class="list-with-dates">
 
 ## Certifications
 

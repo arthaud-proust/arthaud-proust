@@ -6,7 +6,13 @@ import { Content as ReadmeContent } from "~/README.md";
 ---
 
 <Layout>
-    <Image src={portrait} alt="" widths={[300]} quality={"max"} />
+    <Image
+        src={portrait}
+        alt=""
+        widths={[300]}
+        quality={"max"}
+        sizes={`300px`}
+    />
     <ReadmeContent />
 </Layout>
 
@@ -20,13 +26,7 @@ import { Content as ReadmeContent } from "~/README.md";
         margin-top: 0.5rem
         font-weight: 400
 
-    #projets-étudiants + ul
-        li
-            a
-                display: block
-
-    #certifications + ul,
-    #formation + ul
+    .list-with-dates ul
         margin-left: 0
 
         li
