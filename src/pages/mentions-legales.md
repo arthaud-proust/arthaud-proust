@@ -1,3 +1,8 @@
+---
+layout: "@/layouts/Layout.astro"
+title: Mentions légales
+---
+
 [Retourner à l'accueil](/)
 
 # Mentions légales
