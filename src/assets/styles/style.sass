@@ -71,8 +71,10 @@ blockquote
         color: variables.$primary
 
     > *:first-child::before
+        @media (max-width: variables.$sm)
+            display: block
+            font-size: 4rem
         content: "“"
-        margin-left: -1.5rem
         margin-right: .5rem
         vertical-align: middle
 
