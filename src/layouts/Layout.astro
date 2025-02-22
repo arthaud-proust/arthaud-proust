@@ -5,8 +5,8 @@ import "../assets/styles/style.sass";
 interface Props {
   title?: string;
   frontmatter?: {
-      title?: string;
-  }
+    title?: string;
+  };
   description?: string;
 }
 
@@ -18,7 +18,7 @@ const {
 const author = "Arthaud Proust";
 const heroUrl = "/hero.jpg";
 
-const pageTitle = frontmatter?.title ?? title
+const pageTitle = frontmatter?.title ?? title;
 ---
 
 <!doctype html>
@@ -55,7 +55,7 @@ const pageTitle = frontmatter?.title ?? title
     rel="preload"
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap"
     as="style"
-    onload="this.onload=null;this.rel="stylesheet";"
+    onload="this.onload=null;this.rel=`stylesheet`;"
   />
   <noscript>
     <link
