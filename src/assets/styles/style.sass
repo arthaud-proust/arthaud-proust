@@ -52,11 +52,47 @@ h2 + h3
 
 p,
 ul,
-ol,
-quote
+ol
     margin-top: 0.5rem
     font-size: 1.1rem
 
+h1, h2, h3, h4, h5, h6
+    + p
+        margin-top: 2rem
+
+blockquote
+    position: relative
+
+    > *:first-child::before,
+    > *:last-child::after
+        font-size: 3rem
+        line-height: .5rem
+        display: inline
+        color: variables.$primary
+
+    > *:first-child::before
+        content: "“"
+        margin-left: -1.5rem
+        margin-right: .5rem
+        vertical-align: middle
+
+    > *:last-child::after
+        content: "”"
+        margin-left: .5rem
+        vertical-align: bottom
+
+figure
+    margin-top: 3rem
+
+    blockquote
+        margin-top: 0
+
+    figcaption
+        margin-top: 1rem
+        font-size: 1rem
+
+    + figure
+        margin-top: 4rem
 
 li + li
     margin-top: 1rem

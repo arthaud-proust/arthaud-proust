@@ -6,12 +6,13 @@
 
 ## Je conçois, design et modélise des solutions
 
-Développeur à Bordeaux, j'ai des compétences diversifiées en design, S.E.O, accessibilité, gestion de projet, lead technique, produit et en architecture
-logicielle.
+Développeur à Bordeaux, j'ai des compétences en architecture logicielle, lead technique, produit, design, gestion de projet, qualité web, S.E.O et
+accessibilité.
+.
 
 J'aime la qualité, le partage et la recherche.
 
-Je me forme constamment, en lisant et en expérimentant.
+Je me forme constamment, en lisant, en expérimentant et en demandant des [retours sur mon travail](/on-a-travaille-ensemble).
 
 </article>
 
@@ -20,20 +21,20 @@ Je me forme constamment, en lisant et en expérimentant.
 ## Expériences pro
 
 - Depuis 2022, Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
-  - [Coach by Co](https://coachbyco.fr)
-  - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
-  - [Psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/)
-  - [Lubbock Photos](https://lubbockphotos.com)
-  - [Guilhem Granier](https://guilhemgranier.fr)
+    - [Coach by Co](https://coachbyco.fr)
+    - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
+    - [Psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/)
+    - [Lubbock Photos](https://lubbockphotos.com)
+    - [Guilhem Granier](https://guilhemgranier.fr)
 - 2024 à 2027, Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
-  - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
-  - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
+    - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
+    - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
 - 2022 à 2024, Développeur web (Laravel & VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
-  - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
-  - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (2 devs, passage de VueJS 2 à Blade pour augmenter la
-    sécurité)
-  - Partie jeu du site Oval3 (2 devs en front)
-  - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
+    - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
+    - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (2 devs, passage de VueJS 2 à Blade pour augmenter la
+      sécurité)
+    - Partie jeu du site Oval3 (2 devs en front)
+    - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
 
 </article>
 
@@ -108,9 +109,9 @@ Je me forme constamment, en lisant et en expérimentant.
 ### MMI Bordeaux
 
 - Expériences interactives au musée des Beaux-Arts de Bordeaux
-  - [Table interactive dans l'entrée du musée durant 1 an](https://nuit-du-musba.mmibordeaux.com/) Assurance qualité, architecture, ops, tech lead,
-    puis installation au musée
-  - [Too Well Stolen lors des Bacchanight 2023](https://too-well-stolen.vercel.app/) Dev & ops
+    - [Table interactive dans l'entrée du musée durant 1 an](https://nuit-du-musba.mmibordeaux.com/) Assurance qualité, architecture, ops, tech lead,
+      puis installation au musée
+    - [Too Well Stolen lors des Bacchanight 2023](https://too-well-stolen.vercel.app/) Dev & ops
 - [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/) Dev & contenu
 - [1 minute dans le monde](https://1minute.lesorchideesrouges.org/) Dev & ops
 - [Pigeon](https://pigeon.ovh/login) Dev & ops
