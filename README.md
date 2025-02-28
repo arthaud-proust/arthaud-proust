@@ -90,7 +90,7 @@ Je me forme constamment, en lisant, en expérimentant et en demandant des [retou
 
 - [Cartes tunnel à ne pas collectionner](https://tunnel.arthaud.dev)
 - [Registre de citations](https://quoted.arthaud.dev)
-- [Sista - photos de moi et ma soeur tous les 10 ans](https://sista.arthaud.dev)
+- [Sista - photos de ma sœur et moi tous les 10 ans](https://sista.arthaud.dev)
 
 ### Recherche
 
