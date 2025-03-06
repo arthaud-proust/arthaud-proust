@@ -11,7 +11,6 @@
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
 
-
 body
     background: variables.$light
     color: variables.$dark
@@ -22,18 +21,15 @@ footer
     max-width: 600px
     padding: 1rem
 
-
 main
     padding-top: 20vh
     min-height: 100dvh
-
 
 h1
     margin-top: 2rem
     font-size: clamp(2.5rem, 0.625rem + 6vw, 4rem)
     font-weight: 700
     line-height: 1.2
-
 
 h2
     margin-top: 10rem
@@ -57,7 +53,7 @@ ol
     font-size: 1.1rem
 
 h1, h2, h3, h4, h5, h6
-    + p
+    & + p
         margin-top: 2rem
 
 blockquote
@@ -71,12 +67,13 @@ blockquote
         color: variables.$primary
 
     > *:first-child::before
-        @media (max-width: variables.$sm)
-            display: block
-            font-size: 4rem
         content: "“"
         margin-right: .5rem
         vertical-align: middle
+
+        @media (max-width: variables.$sm)
+            display: block
+            font-size: 4rem
 
     > *:last-child::after
         content: "”"
@@ -97,10 +94,10 @@ figure
         margin-top: 4rem
 
 li + li
-    margin-top: 1rem
+        margin-top: 1rem
 
 li p
-    margin-top: 0
+        margin-top: 0
 
 ol,
 ul
@@ -132,9 +129,6 @@ footer
         flex-flow: row wrap
         gap: 1rem
 
-
     p
         font-size: 0.8rem
         margin-top: 1rem
-
-
