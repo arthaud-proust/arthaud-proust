@@ -78,7 +78,7 @@ Je me forme constamment, en lisant, en expérimentant et en demandant des [retou
 
 ### Jeux
 
-- [Échecs](https://chess.arthaud.dev)
+- [Jeux d'Échecs](https://chess.arthaud.dev)
 - [Rummikub en ligne](https://rummikub.arthaud.dev)
 - [Jeu de la vie](https://life.arthaud.dev)
 - [Simulation de bouchons](https://traffic-jam.arthaud.dev)
@@ -104,7 +104,7 @@ Je me forme constamment, en lisant, en expérimentant et en demandant des [retou
 ### Junia Bordeaux
 
 - [Solveur de système linéaire](https://matrix-resolution.netlify.app/)
-- [Échecs en C](https://github.com/arthaud-proust/c-chess)
+- [Jeux d'Échecs en C](https://github.com/arthaud-proust/c-chess)
 
 ### MMI Bordeaux
 
