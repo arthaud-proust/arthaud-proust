@@ -25,7 +25,6 @@ Je me forme constamment, en lisant, en expérimentant et en demandant des [retou
     - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
     - [Psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/)
     - [Lubbock Photos](https://lubbockphotos.com)
-    - [Guilhem Granier](https://guilhemgranier.fr)
 - 2024 à 2027, Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
     - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
     - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
@@ -104,6 +103,7 @@ Je me forme constamment, en lisant, en expérimentant et en demandant des [retou
 
 ### Junia Bordeaux
 
+- [Solveur de système linéaire](https://matrix-resolution.netlify.app/)
 - [Échecs en C](https://github.com/arthaud-proust/c-chess)
 
 ### MMI Bordeaux
