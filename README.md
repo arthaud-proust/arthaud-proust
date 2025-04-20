@@ -8,7 +8,6 @@
 
 Développeur à Bordeaux, j'ai des compétences en architecture logicielle, lead technique, produit, design, gestion de projet, qualité web, S.E.O et
 accessibilité.
-.
 
 J'aime la qualité, le partage et la recherche.
 
