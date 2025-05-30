@@ -6,33 +6,35 @@
 
 ## Je conçois, design et modélise des solutions
 
-Développeur à Bordeaux, j'ai des compétences en architecture logicielle, lead technique, produit, design, gestion de projet, qualité web, S.E.O et
+Ingénieur du numérique en apprentissage à Bordeaux, j'ai des compétences en architecture logicielle, lead technique, produit, design, gestion de projet, qualité web, S.E.O et
 accessibilité.
 
 J'aime la qualité, le partage et la recherche.
 
-Je me forme constamment, en lisant, en expérimentant et en demandant des [retours sur mon travail](/on-a-travaille-ensemble).
+Je me forme constamment: en lisant, en expérimentant et en demandant des [retours sur mon travail](/on-a-travaille-ensemble).
 
 </article>
 
-<article aria-describedby="expériences-pro">
+<article aria-describedby="expériences-pro" class="list-with-dates">
 
 ## Expériences pro
 
-- Depuis 2022, Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
-    - [Coach by Co](https://coachbyco.fr)
-    - [Site de l'AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
-    - [Psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/)
-    - [Lubbock Photos](https://lubbockphotos.com)
-- 2024 à 2027, Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
-    - Migration de Nuxt2 & VueJs2 à Nuxt3 & VueJs 3
-    - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
+- <span>2024 à 2027</span> Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
+    - Migration de Nuxt2 à Nuxt3 (~50 000 lignes de code), gain de temps avec un prompt IA custom (équipe de 3)
+    - Développement sur des fonctionnalités importantes et attendues par le marché (solo, revue par les pairs):
+      - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
+      - Confirmation automatique des réservations de salles pour Microsoft Teams Rooms 
+- 2022 à 2024, Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
+    - Assurer une image de qualité en ligne pour [Coach by Co](https://coachbyco.fr)
+    - Faciliter l'organisation d'évènements pour l'[AS Escalade du Lycée Montesquieu](https://escalade-montesquieu.fr)
+    - Permettre à des patient de trouver sur plusieurs villes la [psychologue Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/) 
+    - Galerie photo de [Lubbock Photos](https://lubbockphotos.com) 
 - 2022 à 2024, Développeur web (Laravel & VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
+    - Permettre aux clients de Fraîcheur de Paris de consulter leur consommation horaire sur 5 ans (+2 millions de relevés) via des bilans graphiques (en duo avec mon M.A)
     - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
-    - Refonte du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (2 devs, passage de VueJS 2 à Blade pour augmenter la
-      sécurité)
+    - Amélioration de la sécurité et de la performance du [site institutionnel de Fraîcheur de Paris](https://www.fraicheurdeparis.fr/) (en duo avec mon M.A, passage de VueJS 2 à Blade)
     - Partie jeu du site Oval3 (2 devs en front)
-    - Applications Shopify pour synchroniser des données entre Clic Logistic et leur shops (2 devs)
+    - Synchronisation des données entre Clic Logistic et leur shops via une app Shopify (2 dev)
 
 </article>
 
@@ -102,6 +104,7 @@ Je me forme constamment, en lisant, en expérimentant et en demandant des [retou
 
 ### Junia Bordeaux
 
+- [Plateforme de recrutement](https://juniajobs.arthaud.dev/)
 - [Solveur de système linéaire](https://matrix-resolution.netlify.app/)
 - [Jeux d'Échecs en C](https://github.com/arthaud-proust/c-chess)
 
