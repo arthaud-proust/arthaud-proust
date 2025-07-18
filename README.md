@@ -16,7 +16,7 @@ J'aime la qualité, le partage et la recherche.
 
 Après un BUT MMI, je poursuis mes études à Junia ISEN en ingénierie du numérique. L'apprentissage me permet de mettre en pratique mes connaissances théoriques.
 
-Je collectionne les expériences professionnelles : auto-entreprise, agence, startup.
+Je diversifie mes expériences professionnelles : auto-entreprise, agence, startup.
 
 Je lis sur des sujets variés : technique, design, romans, société, psychologie...
 
