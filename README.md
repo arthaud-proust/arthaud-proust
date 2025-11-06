@@ -106,7 +106,6 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 - [Cartes tunnel à ne pas collectionner](https://tunnel.arthaud.dev)
 - [Registre de citations](https://quoted.arthaud.dev)
-- [Sista - photos de ma sœur et moi tous les 10 ans](https://sista.arthaud.dev)
 
 ### Recherche
 
