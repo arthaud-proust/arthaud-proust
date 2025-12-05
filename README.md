@@ -90,7 +90,6 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 - [Copiez/collez des fichier et du texte facilement entre vos appareils](https://clipboard.arthaud.dev)
 - [Template de portfolio simple](https://github.com/arthaud-proust/simple-portfolio)
 - [Extension VSCode pour aller à la définition d'un partial Hugo](https://marketplace.visualstudio.com/items?itemName=arthaud-proust.hugo-partials-defs)
-- [Prévisualisez vos photos sur plusieurs appareils en même temps](https://preview.arthaud.dev)
 - [Générez les meta-tags pour vos sites](https://metatags.arthaud.dev)
 
 ### Jeux
@@ -100,7 +99,6 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 - [Jeu de la vie](https://life.arthaud.dev)
 - [Simulation de bouchons](https://traffic-jam.arthaud.dev)
 - [Double pendule](https://pendulum.arthaud.dev)
-- [Snake multijoueur](https://snake.arthaud.dev)
 
 ### Contenus
 
