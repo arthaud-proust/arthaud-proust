@@ -39,7 +39,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
   - Migration de Nuxt2 à Nuxt3 (~50 000 lignes de code), gain de temps avec un prompt IA custom (équipe de 3)
 - <span>2022 à 2024</span>
   Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
-  - Assurer une image de qualité en ligne pour [Coach by Co](https://coachbyco.fr)
+  - Assurer une image de qualité en ligne pour [Coach by Co](https://coachbyco.arthaud.dev)
   - Faciliter l'organisation d'évènements pour l'[AS Escalade Lycée Montesquieu](https://escalade-montesquieu.fr)
   - Permettre à des patients de trouver la psychologue [Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/) sur plusieurs villes
   - Exposer autrement les photos photo de [Lubbock Photos](https://lubbockphotos.com)
