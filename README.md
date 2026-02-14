@@ -71,6 +71,8 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ## Certifications
 
+- <span>2025</span>
+  Anglais B2 - TOEIC 945pts
 - <span>2024</span>
   Développement 3D - [ThreeJs Journey](https://threejs-journey.com/certificate/view/37429)
 - <span>2023</span>
@@ -131,6 +133,6 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 - [1 minute dans le monde](https://1minute.lesorchideesrouges.org/) Dev & ops
 - [Pigeon](https://pigeon.arthaud.ovh/login) Dev & ops
 - [Safe'n'Tech](https://safe-n-tech.netlify.app/) Réflexion architecture et dev & ops
-- [Les voix errantes de Kyiv](https://les-voix-errantes-de-kyiv.fr/) Dev expérience Olena et liste des expériences
+- [Les voix errantes de Kyiv](https://github.com/les-voix-errantes-de-kyiv) Dev expérience Olena et liste des expériences
 
 </article>
