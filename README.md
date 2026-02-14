@@ -96,7 +96,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ### Jeux
 
-- [Jeux d'Échecs](https://chess.arthaud.dev)
+- [Jeux d'Échecs](https://github.com/arthaud-proust/dev.arthaud.chess)
 - [Rummikub en ligne](https://rummikub.arthaud.dev)
 - [Jeu de la vie](https://life.arthaud.dev)
 - [Simulation de bouchons](https://traffic-jam.arthaud.dev)
