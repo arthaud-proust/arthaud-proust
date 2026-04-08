@@ -39,7 +39,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
   - Migration de Nuxt2 à Nuxt3 (~50 000 lignes de code), gain de temps avec un prompt IA custom (équipe de 3)
 - <span>2022 à 2024</span>
   Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
-  - Assurer une image de qualité en ligne pour [Coach by Co](https://coachbyco.arthaud.dev)
+  - Assurer une image de qualité en ligne pour [Coach by Co](https://github.com/arthaud-proust-archive/coach-by-co)
   - Faciliter l'organisation d'évènements pour l'[AS Escalade Lycée Montesquieu](https://escalade-montesquieu.fr)
   - Permettre à des patients de trouver la psychologue [Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/) sur plusieurs villes
   - Exposer autrement les photos photo de [Lubbock Photos](https://lubbockphotos.com)
@@ -88,8 +88,8 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ### Outils
 
-- [Aider les enfants ayant plusieurs domiciles (parents séparés, internat) à organiser leur valise](https://dressing.arthaud.dev)
-- [Copiez/collez des fichier et du texte facilement entre vos appareils](https://clipboard.arthaud.dev)
+- [Aider les enfants ayant plusieurs domiciles (parents séparés, internat) à organiser leur valise](https://github.com/arthaud-proust-archive/dev.arthaud.dressing)
+- [Copiez/collez des fichier et du texte facilement entre vos appareils](https://github.com/arthaud-proust-archive/dev.arthaud.clipboard)
 - [Template de portfolio simple](https://github.com/arthaud-proust/simple-portfolio)
 - [Extension VSCode pour aller à la définition d'un partial Hugo](https://marketplace.visualstudio.com/items?itemName=arthaud-proust.hugo-partials-defs)
 - [Générez les meta-tags pour vos sites](https://metatags.arthaud.dev)
@@ -97,7 +97,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 ### Jeux
 
 - [Jeux d'Échecs](https://github.com/arthaud-proust/dev.arthaud.chess)
-- [Rummikub en ligne](https://rummikub.arthaud.dev)
+- [Rummikub en ligne](https://github.com/rummikub-online/webapp)
 - [Jeu de la vie](https://life.arthaud.dev)
 - [Simulation de bouchons](https://traffic-jam.arthaud.dev)
 - [Double pendule](https://pendulum.arthaud.dev)
@@ -105,7 +105,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 ### Contenus
 
 - [Cartes tunnel à ne pas collectionner](https://tunnel.arthaud.dev)
-- [Registre de citations](https://quoted.arthaud.dev)
+- [Registre de citations](https://github.com/arthaud-proust-archive/dev.arthaud.quoted-v2)
 
 ### Recherche
 
