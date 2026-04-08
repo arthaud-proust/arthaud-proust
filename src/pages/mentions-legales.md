@@ -7,19 +7,9 @@ title: Mentions légales
 
 # Mentions légales
 
-## Conditions générales de vente
+## Cookies
 
-[Voir les conditions générales de vente (pdf)](/pdf/cgv-30-10-2023.pdf)
-
-## Entreprise
-
-### Monsieur Arthaud Proust
-
-13 rue de la Liberté
-
-33185 Le Haillan
-
-SIRET 90274035600016
+Aucun
 
 ## Hébergeur du site
 
