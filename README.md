@@ -131,8 +131,8 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
   - [Too Well Stolen lors des Bacchanight 2023](https://too-well-stolen.vercel.app/) Dev & ops
 - [Nous n'avons pas numérisé](https://nousnavonspasnumerise.mmibordeaux.com/) Dev & contenu
 - [1 minute dans le monde](https://1minute.lesorchideesrouges.org/) Dev & ops
-- [Pigeon](https://pigeon.arthaud.ovh/login) Dev & ops
-- [Safe'n'Tech](https://safe-n-tech.netlify.app/) Réflexion architecture et dev & ops
+- [Pigeon](https://github.com/arthaud-proust-mmi/pigeon) Dev & ops
+- [Safe'n'Tech](https://github.com/safe-n-tech/www) Réflexion architecture et dev & ops
 - [Les voix errantes de Kyiv](https://github.com/les-voix-errantes-de-kyiv) Dev expérience Olena et liste des expériences
 
 </article>
