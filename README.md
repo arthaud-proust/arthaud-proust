@@ -119,6 +119,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ### Junia Bordeaux
 
+- [Semantikse - Refonte de Cémantix](https://semantikse.vercel.app/)
 - [Plateforme de recrutement](https://juniajobs.arthaud.dev/)
 - [Solveur de système linéaire](https://matrix-resolution.netlify.app/)
 - [Jeux d'Échecs en C](https://github.com/arthaud-proust/c-chess)
