@@ -30,11 +30,15 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ## Expériences pro
 
-- <span>2024 à 2027</span>
+- <span>2026 à 2027</span>
+  Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [LumApps](https://lumapps.com)
+  - Industrialisation du code via des automations, conventions
+  - Revue de code
+  - Développement de fonctionnalités attendues par le marché (solo, revue par les pairs)
+- <span>2024 à 2026</span>
   Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
-  - Développement sur des fonctionnalités importantes et attendues par le marché (solo, revue par les pairs):
-    - Refonte des composants de la carte interactive pour l'affichage/sélection de bureaux et de salles de réunions
-    - Confirmation automatique des réservations de salles pour Microsoft Teams Rooms
+  - Optimisation et maintenance renforcée via la refonte de la carte interactive permettant d'afficher les bureaux et les salles de réunions (100 000+ bureaux affichés sans lag, consommation mémoire réduire par 2, architecture extensible)
+  - Développement de la confirmation automatique des réservations de salles pour Microsoft Teams Rooms
   - Migration de Nuxt2 à Nuxt3 (~50 000 lignes de code), gain de temps avec un prompt IA custom (équipe de 3)
 - <span>2022 à 2024</span>
   Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
