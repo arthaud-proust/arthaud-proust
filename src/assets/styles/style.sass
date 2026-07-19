@@ -43,6 +43,10 @@ h3
     font-weight: 400
     line-height: 1.2
 
+h1 + h2
+    margin-top: 0.5rem
+    font-weight: 400
+
 h2 + h3
     margin-top: 2rem
 
@@ -99,6 +103,13 @@ li + li
 li p
         margin-top: 0
 
+img
+    width: 40%
+    height: auto
+    margin-right: auto
+    border-radius: .4rem
+
+
 ol,
 ul
     margin-top: 2rem
@@ -135,3 +146,34 @@ footer
 
         a
             margin-left: .2rem
+
+
+
+@media screen and (min-width: 840px)
+    .list-with-dates > ul
+        margin-left: 0
+
+        > li
+            $width: 6rem
+            $gap: 2rem
+            position: relative
+            padding-left: $width + $gap
+
+            &+ li
+                margin-top: 2rem
+
+            span:first-of-type
+                position: absolute
+                left: 0
+                width: $width
+                white-space: nowrap
+
+@media screen and (max-width: 840px)
+    .list-with-dates > ul
+        > li
+            &+ li
+                margin-top: 2rem
+
+            span:first-of-type
+                display: block
+                font-weight: bold
