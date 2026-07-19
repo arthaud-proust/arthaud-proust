@@ -6,7 +6,7 @@
 
 ## Je conçois, design et modélise des solutions
 
-Apprenti ingénieur du numérique à Bordeaux, j'ai des compétences en architecture logicielle, en développement logiciel, en produit et en design. 
+Apprenti ingénieur du numérique à Bordeaux, j'ai des compétences en architecture logicielle, en développement logiciel, en produit et en design.
 
 Mon travail commence avec un besoin utilisateur et termine par une solution fiable et durable.
 
@@ -22,8 +22,7 @@ Je lis sur des sujets variés : technique, design, romans, société, psychologi
 
 Je pratique, beaucoup ! Projets personnels, étudiants, professionnels. Sites, musique, bricolage... J'aime l'intellect et le physique.
 
-Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensemble). 
-
+Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensemble).
 
 </article>
 
@@ -40,7 +39,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 - <span>2022 à 2024</span>
   Développeur freelance (sites vitrines éco-conçu en Hugo, webapp en Laravel)
   - Assurer une image de qualité en ligne pour [Coach by Co](https://github.com/arthaud-proust-archive/coach-by-co)
-  - Faciliter l'organisation d'évènements pour l'[AS Escalade Lycée Montesquieu](https://escalade-montesquieu.fr)
+  - Faciliter l'organisation d'évènements pour l'[AS Escalade Lycée Montesquieu](https://github.com/arthaud-proust-archive/escalade-montesquieu.fr)
   - Permettre à des patients de trouver la psychologue [Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/) sur plusieurs villes
   - Exposer autrement les photos photo de [Lubbock Photos](https://lubbockphotos.com)
 - <span>2022 à 2024</span>
