@@ -41,10 +41,10 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
   - Assurer une image de qualité en ligne pour [Coach by Co](https://github.com/arthaud-proust-archive/coach-by-co)
   - Faciliter l'organisation d'évènements pour l'[AS Escalade Lycée Montesquieu](https://github.com/arthaud-proust-archive/escalade-montesquieu.fr)
   - Permettre à des patients de trouver la psychologue [Rachel Bourgeois](https://rachelbourgeois-psychologue.fr/) sur plusieurs villes
-  - Exposer autrement les photos photo de [Lubbock Photos](https://lubbockphotos.com)
+  - Proposer une exploration design des photos de [Lubbock Photos](https://lubbockphotos.com)
 - <span>2022 à 2024</span>
   Développeur web (Laravel & VueJs) en apprentissage à l'[agence Mink](https://mink-agency.com)
-  - Permettre aux clients de Fraîcheur de Paris de consulter leur consommation horaire sur 5 ans (+2 millions de relevés) via des bilans graphiques (en duo avec mon M.A)
+  - Permettre aux clients de Fraîcheur de Paris de consulter leur consommation horaire sur 5 ans (+2 millions de relevés) via des bilans graphiques (en duo avec mon Maître d'apprentissage)
   - Développement de la webapp Saales et de la marketplace FraîcheurPlus de Fraîcheur de Paris (équipe de 5 dev)
   - Partie jeu du site Oval3 (2 devs en front)
   - Synchronisation des données entre Clic Logistic et leur shops via une app Shopify (2 dev)
@@ -87,6 +87,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ### Outils
 
+- [Amélioration du gestionnaire de mot de passe Spectre](https://spectre.arthaud.dev)
 - [Aider les enfants ayant plusieurs domiciles (parents séparés, internat) à organiser leur valise](https://github.com/arthaud-proust-archive/dev.arthaud.dressing)
 - [Copiez/collez des fichier et du texte facilement entre vos appareils](https://github.com/arthaud-proust-archive/dev.arthaud.clipboard)
 - [Template de portfolio simple](https://github.com/arthaud-proust/simple-portfolio)
@@ -103,6 +104,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ### Contenus
 
+- [Site vitrine de la fanfare Los Teoporos](https://losteoporos.fr)
 - [Cartes tunnel à ne pas collectionner](https://tunnel.arthaud.dev)
 - [Registre de citations](https://github.com/arthaud-proust-archive/dev.arthaud.quoted-v2)
 
@@ -118,6 +120,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 ### Junia Bordeaux
 
+- [Cell Vision - Association cellules-électrodes via computer vision](https://github.com/Junia-Cellvision)
 - [Semantikse - Refonte de Cémantix](https://semantikse.vercel.app/)
 - [Plateforme de recrutement](https://juniajobs.arthaud.dev/)
 - [Solveur de système linéaire](https://matrix-resolution.netlify.app/)
