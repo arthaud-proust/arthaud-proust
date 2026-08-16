@@ -1,0 +1,14 @@
+#!/bin/bash
+# mise description="Remplit orgas.txt avec le compte perso + toutes les orgas GitHub"
+
+set -euo pipefail
+
+OUTPUT=".mise/orgas.txt"
+
+{
+    echo "arthaud-proust"
+    gh api user/orgs --jq '.[].login'
+} | sort > "$OUTPUT"
+
+COUNT=$(wc -l < "$OUTPUT" | tr -d ' ')
+echo "Done: $COUNT entries written to $OUTPUT" >&2

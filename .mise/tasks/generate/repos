@@ -1,0 +1,64 @@
+#!/bin/bash
+# mise description="Lit repos.txt, fetch les données GitHub, génère un fichier JSON par repo dans src/data/repos/"
+# start_date = min(created_at, premier commit)
+
+set -euo pipefail
+
+REPOS_FILE=".mise/repos.txt"
+OUTPUT_DIR="src/data/repos"
+
+if [[ ! -f "$REPOS_FILE" ]]; then
+    echo "Error: $REPOS_FILE not found. Run 'mise run fetch:repos' first." >&2
+    exit 1
+fi
+
+rm -rf "$OUTPUT_DIR"
+
+first_commit_date() {
+    local full_name="$1"
+    local link last_path
+
+    link=$(gh api "repos/$full_name/commits?per_page=1" --include 2>/dev/null \
+           | grep -i '^link:' | head -1 || true)
+
+    if echo "$link" | grep -q 'rel="last"'; then
+        last_path=$(echo "$link" \
+            | grep -oE '<[^>]+>; rel="last"' \
+            | grep -oE '<[^>]+>' \
+            | tr -d '<>' \
+            | sed 's|https://api.github.com||')
+        gh api "$last_path" --jq '.[-1].commit.author.date' 2>/dev/null || true
+    else
+        gh api "repos/$full_name/commits?per_page=1" --jq '.[-1].commit.author.date' 2>/dev/null || true
+    fi
+}
+
+COUNT=0
+while IFS= read -r full_name; do
+    [[ -z "$full_name" || "$full_name" =~ ^# ]] && continue
+
+    owner="${full_name%%/*}"
+    name="${full_name##*/}"
+
+    echo "Processing: $full_name" >&2
+
+    repo=$(gh api "repos/$full_name" \
+        --jq '{full_name, description, created_at, language, topics, archived, fork, private, homepage}' \
+        2>/dev/null) || { echo "  Skipping (not found): $full_name" >&2; continue; }
+
+    created_at=$(echo "$repo" | jq -r '.created_at')
+    commit_date=$(first_commit_date "$full_name")
+
+    if [[ -n "$commit_date" && "$commit_date" < "$created_at" ]]; then
+        start_date="$commit_date"
+    else
+        start_date="$created_at"
+    fi
+
+    mkdir -p "$OUTPUT_DIR/$owner"
+    echo "$repo" | jq --arg start_date "$start_date" '. + {start_date: $start_date}' \
+        > "$OUTPUT_DIR/$owner/$name.json"
+    COUNT=$((COUNT + 1))
+done < "$REPOS_FILE"
+
+echo "Done: $COUNT files written to $OUTPUT_DIR/" >&2

@@ -1,0 +1,39 @@
+#!/bin/bash
+# mise description="Lit orgas.txt, récupère la liste des repos, écrit repos.txt"
+# Édite repos.txt ensuite pour garder seulement les repos voulus.
+
+set -euo pipefail
+
+ORGAS_FILE=".mise/orgas.txt"
+REPOS_FILE=".mise/repos.txt"
+TEMP=$(mktemp)
+
+if [[ ! -f "$ORGAS_FILE" ]]; then
+    echo "Error: $ORGAS_FILE not found. Run 'mise run fetch:orgas' first." >&2
+    exit 1
+fi
+
+fetch_for_owner() {
+    local owner="$1"
+    if ! gh api "orgs/$owner/repos?per_page=200" \
+        --jq '.[] | {full_name, fork}' \
+        >> "$TEMP" 2>/dev/null; then
+        gh api "users/$owner/repos?per_page=200&type=owner" \
+            --jq '.[] | {full_name, fork}' \
+            >> "$TEMP" 2>/dev/null || true
+    fi
+}
+
+while IFS= read -r owner; do
+    [[ -z "$owner" || "$owner" =~ ^# ]] && continue
+    echo "Fetching: $owner" >&2
+    fetch_for_owner "$owner"
+done < "$ORGAS_FILE"
+
+# Forks exclus par défaut — à ajouter manuellement si besoin
+jq -rs '[.[] | select(.fork == false and ((.full_name | split("/"))[1] != ".github"))] | .[].full_name' \
+    "$TEMP" | sort > "$REPOS_FILE"
+rm "$TEMP"
+
+COUNT=$(wc -l < "$REPOS_FILE" | tr -d ' ')
+echo "Done: $COUNT repos written to $REPOS_FILE (forks excluded)" >&2
