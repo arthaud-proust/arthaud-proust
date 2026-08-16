@@ -1,0 +1,17 @@
+{
+  "archived": false,
+  "created_at": "2022-11-07T09:37:54Z",
+  "description": "Website of the climbing section at the school Lycée Montesquieu in Bordeaux. It has a blog and a forum to organize climbing events inside or outside the school.",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/fr.escalade-montesquieu.v2",
+  "homepage": "",
+  "language": "PHP",
+  "private": false,
+  "topics": [
+    "filament",
+    "laravel",
+    "livewire",
+    "website"
+  ],
+  "start_date": "2022-11-07T09:37:54Z"
+}

@@ -1,0 +1,17 @@
+{
+  "archived": false,
+  "created_at": "2023-01-31T13:33:40Z",
+  "description": "Interactive Experience for Bacchanight on Monday, March 21, 2023 - Group 7",
+  "fork": false,
+  "full_name": "studio-beauvoir/experience-interactive-musba",
+  "homepage": "https://too-well-stolen.vercel.app/",
+  "language": "Svelte",
+  "private": false,
+  "topics": [
+    "bacchanight",
+    "interactive-experience",
+    "mmibordeaux",
+    "musba"
+  ],
+  "start_date": "2023-01-31T13:33:40Z"
+}

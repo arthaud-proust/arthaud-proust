@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2024-12-28T00:10:23Z",
+  "description": "Chess in C in terminal. With 1 or 2 computer (on lan)",
+  "fork": false,
+  "full_name": "arthaud-proust/c-chess",
+  "homepage": "",
+  "language": "C",
+  "private": false,
+  "topics": [
+    "chess",
+    "multiplayer"
+  ],
+  "start_date": "2024-12-27T21:58:59Z"
+}

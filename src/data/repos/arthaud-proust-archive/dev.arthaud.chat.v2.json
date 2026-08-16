@@ -1,0 +1,18 @@
+{
+  "archived": false,
+  "created_at": "2024-08-24T11:36:36Z",
+  "description": "Chat to explore Nuxt+NuxtUI and websockets",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/dev.arthaud.chat.v2",
+  "homepage": "",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "chat",
+    "nuxt",
+    "real-time",
+    "socket-io",
+    "website"
+  ],
+  "start_date": "2024-08-24T11:34:56Z"
+}

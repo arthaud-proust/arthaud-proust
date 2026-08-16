@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2020-04-11T20:29:56Z",
+  "description": "Play to tic-tac-toe on discord",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/morpion",
+  "homepage": "",
+  "language": "JavaScript",
+  "private": false,
+  "topics": [
+    "bot",
+    "discord"
+  ],
+  "start_date": "2020-04-11T20:29:56Z"
+}

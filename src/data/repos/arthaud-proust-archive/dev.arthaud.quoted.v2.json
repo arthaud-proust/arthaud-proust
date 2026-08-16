@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2024-09-08T00:39:38Z",
+  "description": "Quotes on a website. You can contribute without creating an account",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/dev.arthaud.quoted.v2",
+  "homepage": "",
+  "language": "PHP",
+  "private": false,
+  "topics": [
+    "filamentphp",
+    "laravel",
+    "website"
+  ],
+  "start_date": "2024-09-07T20:39:40Z"
+}

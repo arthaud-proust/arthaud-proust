@@ -1,0 +1,14 @@
+{
+  "archived": false,
+  "created_at": "2021-01-23T13:27:49Z",
+  "description": "First version to show Lubbock's photos",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/com.lubbockphotos.v1",
+  "homepage": "https://lubbockphotos.com",
+  "language": "PHP",
+  "private": false,
+  "topics": [
+    "website"
+  ],
+  "start_date": "2021-01-23T13:27:49Z"
+}

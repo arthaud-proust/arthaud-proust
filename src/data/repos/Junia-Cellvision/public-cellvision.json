@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2026-05-10T20:35:28Z",
+  "description": "Automatiser l'étude des facteurs influant sur la mesure des signaux électro-physiologiques, en segmentant les positions des cellules et en les corrèlant avec les positions des électrodes",
+  "fork": false,
+  "full_name": "Junia-Cellvision/public-cellvision",
+  "homepage": "",
+  "language": "Python",
+  "private": false,
+  "topics": [
+    "computer-vision",
+    "electrophysiology",
+    "mea"
+  ],
+  "start_date": "2026-05-10T20:35:28Z"
+}

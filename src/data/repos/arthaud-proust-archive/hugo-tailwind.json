@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2022-10-30T15:59:00Z",
+  "description": "Template for Hugo with Tailwindcss",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/hugo-tailwind",
+  "homepage": null,
+  "language": "HTML",
+  "private": false,
+  "topics": [
+    "template",
+    "website"
+  ],
+  "start_date": "2022-10-30T15:59:00Z"
+}

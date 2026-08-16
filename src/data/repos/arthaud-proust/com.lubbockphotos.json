@@ -1,0 +1,17 @@
+{
+  "archived": false,
+  "created_at": "2024-06-13T21:30:09Z",
+  "description": "Website of french photographer Lubbock",
+  "fork": false,
+  "full_name": "arthaud-proust/com.lubbockphotos",
+  "homepage": "https://lubbockphotos.com",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "nextjs",
+    "r3f",
+    "threejs",
+    "website"
+  ],
+  "start_date": "2024-06-13T20:10:50Z"
+}

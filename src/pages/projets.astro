@@ -1,0 +1,253 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+type Repo = {
+    full_name: string;
+    description: string | null;
+    created_at: string;
+    start_date?: string;
+    language: string | null;
+    topics: string[];
+    archived: boolean;
+    fork: boolean;
+    private: boolean;
+    homepage: string | null;
+};
+
+const repoFiles = import.meta.glob<Repo>("../data/repos/**/*.json", {
+    eager: true,
+    import: "default",
+});
+const repos = Object.values(repoFiles).sort((a, b) =>
+    (b.start_date ?? b.created_at).localeCompare(a.start_date ?? a.created_at),
+);
+
+const PROJECTS_COUNT = repos.length;
+
+const byYear = repos.reduce<Record<string, Repo[]>>((acc, repo) => {
+    const year = (repo.start_date ?? repo.created_at).slice(0, 4);
+    (acc[year] ??= []).push(repo);
+    return acc;
+}, {});
+
+const years = Object.keys(byYear).sort((a, b) => Number(b) - Number(a));
+
+function repoName(full_name: string) {
+    return full_name.split("/")[1];
+}
+
+function githubUrl(full_name: string) {
+    return `https://github.com/${full_name}`;
+}
+
+function formatDate(iso: string) {
+    const d = new Date(iso);
+    return `${String(d.getUTCDate()).padStart(2, "0")}/${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
+}
+---
+
+<Layout
+    title="Historique des projets - Arthaud Proust"
+    description=`Retrouvez plus de ${PROJECTS_COUNT} projets codés sans IA depuis 2020. Projets personnels et scolaires`
+>
+    <section>
+        <a href="/">Retourner à l'accueil</a>
+
+        <h1>Liste complète des projets</h1>
+        <p>
+            Retrouvez les {PROJECTS_COUNT} projets développés depuis mon adolescence
+            jusqu'à 2026 (date de démocratisation de Claude Code et compagnie).
+        </p>
+
+        {
+            years.map((year) => (
+                <article class="year" data-year={year}>
+                    <header>
+                        <h2>{year}</h2>
+                        <span data-count>{byYear[year].length} projets</span>
+                    </header>
+
+                    {byYear[year].map((repo) => {
+                        const searchable = [
+                            repoName(repo.full_name),
+                            repo.full_name.split("/")[0],
+                            repo.description ?? "",
+                            repo.language ?? "",
+                            ...repo.topics,
+                            repo.archived ? "archivé" : "",
+                            repo.private ? "privé" : "",
+                        ]
+                            .join(" ")
+                            .toLowerCase();
+                        return (
+                            <article data-search={searchable}>
+                                <header>
+                                    <h3>{repoName(repo.full_name)}</h3>
+
+                                    <span>{repo.full_name.split("/")[0]}</span>
+
+                                    <span class="date">
+                                        {formatDate(
+                                            repo.start_date ?? repo.created_at,
+                                        )}
+                                    </span>
+                                </header>
+
+                                <nav>
+                                    {!repo.private && (
+                                        <a
+                                            href={githubUrl(repo.full_name)}
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                        >
+                                            Voir le code ↗
+                                        </a>
+                                    )}
+                                    {repo.homepage && (
+                                        <a
+                                            href={repo.homepage}
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                        >
+                                            Voir le site ↗
+                                        </a>
+                                    )}
+                                </nav>
+
+                                {repo.description && <p>{repo.description}</p>}
+
+                                {(repo.language ||
+                                    repo.topics.length > 0 ||
+                                    repo.archived ||
+                                    repo.private) && (
+                                    <div class="repo-tags">
+                                        {repo.language && (
+                                            <span class="lang">
+                                                {repo.language}
+                                            </span>
+                                        )}
+
+                                        {repo.topics.map((topic) => (
+                                            <span>{topic}</span>
+                                        ))}
+
+                                        {repo.private && <span>Privé</span>}
+                                    </div>
+                                )}
+                            </article>
+                        );
+                    })}
+                </article>
+            ))
+        }
+
+        <p id="no-results" hidden>La recherche n'a donné aucun résultat.</p>
+
+        <input
+            type="search"
+            id="search"
+            placeholder="Rechercher par nom, langage, description..."
+            aria-label="Rechercher par nom, langage, description..."
+            autocomplete="off"
+        />
+    </section>
+</Layout>
+<script>
+    const input = document.getElementById("search") as HTMLInputElement;
+    const noResults = document.getElementById("no-results") as HTMLElement;
+    const yearEls = document.querySelectorAll<HTMLElement>("article.year");
+
+    input.addEventListener("input", () => {
+        const query = input.value.toLowerCase().trim();
+        let totalVisible = 0;
+
+        yearEls.forEach((yearEl) => {
+            const repoEls =
+                yearEl.querySelectorAll<HTMLElement>(":scope > article");
+            let visible = 0;
+
+            repoEls.forEach((repo) => {
+                const matches =
+                    !query || (repo.dataset.search ?? "").includes(query);
+                repo.hidden = !matches;
+                if (matches) visible++;
+            });
+
+            yearEl.hidden = visible === 0;
+            totalVisible += visible;
+
+            const countEl = yearEl.querySelector<HTMLElement>("[data-count]");
+            if (countEl) {
+                countEl.textContent = query
+                    ? `${visible} / ${repoEls.length} projets`
+                    : `${repoEls.length} projets`;
+            }
+        });
+
+        noResults.hidden = totalVisible > 0 || !query;
+    });
+</script>
+
+<style lang="sass">
+    @use "../assets/styles/variables"
+
+    input
+        position: sticky
+        bottom: 1.5rem
+        margin-top: 3rem
+        width: 100%
+        padding: .8rem 1.2rem
+        font-size: 1rem
+        font-family: inherit
+        border: 2px solid variables.$secondary
+        border-radius: 999px
+        outline: none
+        box-sizing: border-box
+        background: variables.$secondary
+        z-index: 10
+
+        &:focus
+            border-color: variables.$primary
+
+    #no-results
+        margin: 8rem 0
+        font-weight: bold
+
+    .year
+        > article
+            $dateWidth: 4rem
+
+            position: relative
+            padding-left: $dateWidth
+            white-space: wrap
+            overflow-wrap: break-word
+
+            .date
+                position: absolute
+                top: .5rem
+                left: 0
+                width: $dateWidth
+                font-size: .8rem
+
+            > nav
+                margin-top: .5rem
+                display: flex
+                gap: .5rem 1rem
+                flex-wrap: wrap
+
+            > .repo-tags
+                margin-top: .5rem
+                display: flex
+                gap: .5rem
+                flex-wrap: wrap
+
+                > span
+                    font-size: .8rem
+                    border-radius: 999px
+                    padding: .4rem .8rem
+                    background: variables.$secondary
+
+                    &.lang
+                        background: variables.$primary
+                        color: variables.$light
+</style>

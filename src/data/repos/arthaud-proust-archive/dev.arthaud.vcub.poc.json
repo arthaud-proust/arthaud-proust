@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2022-11-08T18:30:59Z",
+  "description": "POC - Explorating Cycleo's API that manage VCub in Bordeaux",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/dev.arthaud.vcub.poc",
+  "homepage": "",
+  "language": "JavaScript",
+  "private": false,
+  "topics": [
+    "poc",
+    "website"
+  ],
+  "start_date": "2022-11-08T18:30:59Z"
+}

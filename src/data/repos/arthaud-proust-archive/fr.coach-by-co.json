@@ -1,0 +1,18 @@
+{
+  "archived": false,
+  "created_at": "2022-10-30T16:01:28Z",
+  "description": "Showcase website for the sport coach Corentin Chevalier",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/fr.coach-by-co",
+  "homepage": "http://coachbyco.arthaud.dev",
+  "language": "HTML",
+  "private": false,
+  "topics": [
+    "coach",
+    "hugo",
+    "portfolio",
+    "tailwindcss",
+    "website"
+  ],
+  "start_date": "2022-10-30T16:01:28Z"
+}

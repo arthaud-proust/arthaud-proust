@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2025-06-05T07:19:49Z",
+  "description": "Electronic project : display volume levels of 4 channels on a 8x8 LED matrix. We used Assembly because commands should be very quick (~1us)",
+  "fork": false,
+  "full_name": "arthaud-proust-junia-isen/project-sound-levels-on-8x8-led-matrix",
+  "homepage": "",
+  "language": "C",
+  "private": false,
+  "topics": [
+    "1st-year",
+    "electronic",
+    "junia-isen-bordeaux"
+  ],
+  "start_date": "2025-06-05T07:17:57Z"
+}

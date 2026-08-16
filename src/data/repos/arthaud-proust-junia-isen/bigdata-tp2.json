@@ -1,0 +1,14 @@
+{
+  "archived": false,
+  "created_at": "2025-10-08T12:29:37Z",
+  "description": "Base files for the TP2",
+  "fork": false,
+  "full_name": "arthaud-proust-junia-isen/bigdata-tp2",
+  "homepage": "",
+  "language": "Dockerfile",
+  "private": false,
+  "topics": [
+    "junia-isen-bordeaux"
+  ],
+  "start_date": "2025-10-08T12:29:37Z"
+}

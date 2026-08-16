@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2022-03-30T14:55:49Z",
+  "description": "Booking platform for professionals, developed to learn Ruby on Rails",
+  "fork": false,
+  "full_name": "arthaud-proust-mmi/dev.arthaud.appointment",
+  "homepage": "",
+  "language": "Ruby",
+  "private": false,
+  "topics": [
+    "booking",
+    "mmibordeaux",
+    "rails"
+  ],
+  "start_date": "2022-03-30T14:55:49Z"
+}

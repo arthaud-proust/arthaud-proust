@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2022-12-03T13:51:09Z",
+  "description": "Play to Luciole game in the browser",
+  "fork": false,
+  "full_name": "arthaud-proust-mmi/luciole-webgl",
+  "homepage": "https://luciole.netlify.app/",
+  "language": "HTML",
+  "private": true,
+  "topics": [
+    "mmibordeaux",
+    "unity",
+    "webgl"
+  ],
+  "start_date": "2022-12-03T13:51:09Z"
+}

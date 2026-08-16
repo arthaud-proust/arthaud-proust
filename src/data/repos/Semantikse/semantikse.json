@@ -1,0 +1,17 @@
+{
+  "archived": false,
+  "created_at": "2026-04-08T13:11:44Z",
+  "description": "Remake of the famous Cemantix game, fresh UI and additional features",
+  "fork": false,
+  "full_name": "Semantikse/semantikse",
+  "homepage": "https://semantikse.vercel.app",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "cemantix",
+    "hint",
+    "modern",
+    "ui"
+  ],
+  "start_date": "2026-04-08T11:55:14Z"
+}

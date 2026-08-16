@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2020-12-31T16:56:05Z",
+  "description": "Multiplayer snake",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/dev.arthaud.snake",
+  "homepage": "",
+  "language": "JavaScript",
+  "private": false,
+  "topics": [
+    "game",
+    "real-time",
+    "website"
+  ],
+  "start_date": "2020-12-31T16:56:05Z"
+}

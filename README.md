@@ -75,11 +75,11 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 ## Certifications
 
 - <span>2025</span>
-  Anglais B2 - TOEIC 945pts
+  Anglais B2 - TOEIC 945/990
 - <span>2024</span>
   Développement 3D - [ThreeJs Journey](https://threejs-journey.com/certificate/view/37429)
 - <span>2023</span>
-  Expert qualité web - [Oquast](https://directory.opquast.com/fr/certificates/arthaud-proust/)
+  Expert qualité web - [Oquast](https://directory.opquast.com/fr/certificates/arthaud-proust/) 960/1000
 - <span>2021</span>
   Premiers secours citoyen - Protection Civile
 
@@ -143,3 +143,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 - [Les voix errantes de Kyiv](https://github.com/les-voix-errantes-de-kyiv) Dev expérience Olena et liste des expériences
 
 </article>
+
+## Tous les projets
+
+Retrouvez la [liste complète de mes projets](/projets)

@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2024-01-16T23:01:06Z",
+  "description": "Traffic jam simulator for the ThreeJS Journey certification",
+  "fork": false,
+  "full_name": "arthaud-proust/traffic-jam.arthaud.dev",
+  "homepage": "https://traffic-jam.arthaud.dev/",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "threejs",
+    "threejs-journey",
+    "website"
+  ],
+  "start_date": "2024-01-16T23:01:06Z"
+}

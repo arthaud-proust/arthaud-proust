@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2020-11-11T13:47:12Z",
+  "description": "Quotes on a website",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/dev.arthaud.quoted.v1",
+  "homepage": "",
+  "language": "PHP",
+  "private": false,
+  "topics": [
+    "laravel",
+    "quotes",
+    "website"
+  ],
+  "start_date": "2020-11-11T13:47:12Z"
+}

@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2025-01-12T22:15:17Z",
+  "description": "Chess in vanilla/TS",
+  "fork": false,
+  "full_name": "arthaud-proust/dev.arthaud.chess",
+  "homepage": "https://chess.arthaud.dev",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "chess",
+    "website"
+  ],
+  "start_date": "2025-01-11T19:21:28Z"
+}

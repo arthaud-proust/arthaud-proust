@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2024-02-26T08:53:29Z",
+  "description": "Can we edit and save a form data locally to avoid data leaks ?",
+  "fork": false,
+  "full_name": "arthaud-proust-rd/serverless-form-builder",
+  "homepage": "",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "local",
+    "research"
+  ],
+  "start_date": "2024-02-26T08:53:29Z"
+}

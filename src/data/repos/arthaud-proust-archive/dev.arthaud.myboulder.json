@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2023-08-12T05:05:24Z",
+  "description": "Display the boulders and let people indicate which ones they've completed",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/dev.arthaud.myboulder",
+  "homepage": null,
+  "language": "Vue",
+  "private": false,
+  "topics": [
+    "bouldering",
+    "not-finished",
+    "website"
+  ],
+  "start_date": "2023-08-12T05:05:24Z"
+}

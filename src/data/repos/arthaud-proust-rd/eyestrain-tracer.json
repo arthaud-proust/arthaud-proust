@@ -1,0 +1,14 @@
+{
+  "archived": false,
+  "created_at": "2022-08-12T11:17:26Z",
+  "description": "Computer-vision to collect data about my eyes to understand how eyestrain appear",
+  "fork": false,
+  "full_name": "arthaud-proust-rd/eyestrain-tracer",
+  "homepage": "",
+  "language": "Python",
+  "private": false,
+  "topics": [
+    "computer-vision"
+  ],
+  "start_date": "2022-08-12T11:17:26Z"
+}

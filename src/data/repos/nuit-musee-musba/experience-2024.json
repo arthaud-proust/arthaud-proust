@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2024-01-30T10:46:09Z",
+  "description": "Une expérience interactive sur l'écran tactile du MusBA qui a eu lieu lors de la Nuit Européenne des Musées le samedi 18 mai 2024. Réalisé par la promotion 2024 du MMI Bordeaux.",
+  "fork": false,
+  "full_name": "nuit-musee-musba/experience-2024",
+  "homepage": "https://nuit-du-musba-2024.netlify.app",
+  "language": "HTML",
+  "private": false,
+  "topics": [
+    "interactive-experience",
+    "mmibordeaux"
+  ],
+  "start_date": "2024-01-30T10:46:09Z"
+}

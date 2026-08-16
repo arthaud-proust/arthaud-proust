@@ -1,0 +1,17 @@
+{
+  "archived": true,
+  "created_at": "2024-03-08T23:17:28Z",
+  "description": "A tool for an association helping children with autism",
+  "fork": false,
+  "full_name": "bild-application/backend",
+  "homepage": "",
+  "language": "PHP",
+  "private": false,
+  "topics": [
+    "api",
+    "mmibordeaux",
+    "rest",
+    "symfony"
+  ],
+  "start_date": "2024-03-08T23:17:28Z"
+}

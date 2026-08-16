@@ -1,0 +1,17 @@
+{
+  "archived": false,
+  "created_at": "2023-12-09T16:41:14Z",
+  "description": "Chromium extension to Bypass Youtube Ads by reloading video page until there is no ads.",
+  "fork": false,
+  "full_name": "arthaud-proust-rd/bypass-youtube-ads",
+  "homepage": "",
+  "language": "JavaScript",
+  "private": false,
+  "topics": [
+    "adblocker",
+    "chrome-extension",
+    "youtube",
+    "youtube-adblocker"
+  ],
+  "start_date": "2023-12-09T16:41:14Z"
+}

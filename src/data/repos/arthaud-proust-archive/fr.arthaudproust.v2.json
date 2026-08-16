@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2022-04-08T19:35:59Z",
+  "description": "Second portfolio made with Hugo",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/fr.arthaudproust.v2",
+  "homepage": "https://v1.arthaudproust.fr",
+  "language": "HTML",
+  "private": false,
+  "topics": [
+    "hugo",
+    "website"
+  ],
+  "start_date": "2022-04-08T19:35:59Z"
+}

@@ -1,0 +1,16 @@
+{
+  "archived": true,
+  "created_at": "2024-03-22T19:24:30Z",
+  "description": "A tool for an association helping children with autism",
+  "fork": false,
+  "full_name": "bild-application/frontend",
+  "homepage": null,
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "mmibordeaux",
+    "nextjs",
+    "reactjs"
+  ],
+  "start_date": "2024-03-22T19:24:30Z"
+}

@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2022-08-19T11:38:27Z",
+  "description": "Template for Hugo with Bootstrap, SEO ready, config with NetlifyCms",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/hugo-netlifycms-bootstrap",
+  "homepage": null,
+  "language": "JavaScript",
+  "private": false,
+  "topics": [
+    "template",
+    "website"
+  ],
+  "start_date": "2022-08-19T11:38:27Z"
+}

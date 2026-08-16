@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2025-06-01T15:24:27Z",
+  "description": "Customized clone of Spectre webapp",
+  "fork": false,
+  "full_name": "arthaud-proust/spectre.arthaud.dev",
+  "homepage": "https://spectre.arthaud.dev",
+  "language": "JavaScript",
+  "private": false,
+  "topics": [
+    "spectre",
+    "website"
+  ],
+  "start_date": "2025-05-28T12:12:02Z"
+}

@@ -1,0 +1,18 @@
+{
+  "archived": false,
+  "created_at": "2021-03-21T09:45:23Z",
+  "description": "Online vote system for photography contests organized in Bordeaux",
+  "fork": false,
+  "full_name": "arthaud-proust-archive/fr.bordeaux-photo",
+  "homepage": "",
+  "language": "PHP",
+  "private": false,
+  "topics": [
+    "challenge",
+    "nocturne",
+    "photography",
+    "rallye",
+    "website"
+  ],
+  "start_date": "2021-03-21T09:45:23Z"
+}

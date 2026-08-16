@@ -1,0 +1,14 @@
+{
+  "archived": true,
+  "created_at": "2023-09-16T21:39:29Z",
+  "description": "Life Game in JS",
+  "fork": false,
+  "full_name": "arthaud-proust/dev.arthaud.life",
+  "homepage": "https://life.arthaud.dev",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "website"
+  ],
+  "start_date": "2023-09-16T21:39:29Z"
+}

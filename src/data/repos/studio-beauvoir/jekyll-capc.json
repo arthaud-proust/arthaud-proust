@@ -1,0 +1,15 @@
+{
+  "archived": false,
+  "created_at": "2021-11-26T10:15:58Z",
+  "description": "Remake of the CAPC website, with Jekyll",
+  "fork": false,
+  "full_name": "studio-beauvoir/jekyll-capc",
+  "homepage": "https://capc.netlify.app/",
+  "language": "CSS",
+  "private": false,
+  "topics": [
+    "jekyll",
+    "mmibordeaux"
+  ],
+  "start_date": "2021-11-26T10:15:58Z"
+}

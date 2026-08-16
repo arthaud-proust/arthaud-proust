@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2025-09-12T12:12:42Z",
+  "description": "Little kata to discover Java. I used TDD (JUnit) to reach result by baby-steps",
+  "fork": false,
+  "full_name": "arthaud-proust-junia-isen/tp-java-tdd",
+  "homepage": "",
+  "language": "Java",
+  "private": false,
+  "topics": [
+    "2nd-year",
+    "java",
+    "junia-isen-bordeaux"
+  ],
+  "start_date": "2025-09-12T12:12:42Z"
+}
