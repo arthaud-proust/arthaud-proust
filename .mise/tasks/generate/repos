@@ -56,8 +56,11 @@ while IFS= read -r full_name; do
     fi
 
     mkdir -p "$OUTPUT_DIR/$owner"
-    echo "$repo" | jq --arg start_date "$start_date" '. + {start_date: $start_date}' \
-        > "$OUTPUT_DIR/$owner/$name.json"
+    echo "$repo" | jq --arg start_date "$start_date" '
+        . + {
+            start_date: $start_date,
+            homepage: (.homepage // "" | if . == "" then null else "https://" + sub("^https?://"; "") end)
+        }' > "$OUTPUT_DIR/$owner/$name.json"
     COUNT=$((COUNT + 1))
 done < "$REPOS_FILE"
 
