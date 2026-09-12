@@ -1,10 +1,10 @@
 {
-  "archived": false,
+  "archived": true,
   "created_at": "2020-10-04T20:19:32Z",
   "description": "A short bank card stylised input group for your forms",
   "fork": false,
   "full_name": "arthaud-proust-archive/dev.arthaud.cb",
-  "homepage": "",
+  "homepage": null,
   "language": "JavaScript",
   "private": false,
   "topics": [

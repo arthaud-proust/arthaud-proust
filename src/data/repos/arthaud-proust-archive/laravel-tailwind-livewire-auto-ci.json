@@ -1,10 +1,10 @@
 {
-  "archived": false,
+  "archived": true,
   "created_at": "2023-01-28T16:05:31Z",
   "description": "Laravel template for quick setup",
   "fork": false,
   "full_name": "arthaud-proust-archive/laravel-tailwind-livewire-auto-ci",
-  "homepage": "",
+  "homepage": null,
   "language": "PHP",
   "private": false,
   "topics": [

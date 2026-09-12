@@ -1,10 +1,10 @@
 {
-  "archived": false,
+  "archived": true,
   "created_at": "2024-09-08T00:39:38Z",
   "description": "Quotes on a website. You can contribute without creating an account",
   "fork": false,
   "full_name": "arthaud-proust-archive/dev.arthaud.quoted.v2",
-  "homepage": "",
+  "homepage": null,
   "language": "PHP",
   "private": false,
   "topics": [

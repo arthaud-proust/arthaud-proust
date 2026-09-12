@@ -4,7 +4,7 @@
   "description": "Send a pigeon around the world. Get a local information about the place you want",
   "fork": false,
   "full_name": "arthaud-proust-mmi/pigeon",
-  "homepage": "",
+  "homepage": null,
   "language": "PHP",
   "private": false,
   "topics": [

@@ -4,7 +4,7 @@
   "description": "Base files for the TP2",
   "fork": false,
   "full_name": "arthaud-proust-junia-isen/bigdata-tp2",
-  "homepage": "",
+  "homepage": null,
   "language": "Dockerfile",
   "private": false,
   "topics": [

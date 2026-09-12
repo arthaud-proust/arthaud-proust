@@ -1,5 +1,5 @@
 {
-  "archived": false,
+  "archived": true,
   "created_at": "2020-12-13T11:29:47Z",
   "description": "Storage-less password manager (V1 & V2). Replaced by dev.arthaud.secure",
   "fork": false,

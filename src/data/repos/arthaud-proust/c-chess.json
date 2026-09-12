@@ -4,7 +4,7 @@
   "description": "Chess in C in terminal. With 1 or 2 computer (on lan)",
   "fork": false,
   "full_name": "arthaud-proust/c-chess",
-  "homepage": "",
+  "homepage": null,
   "language": "C",
   "private": false,
   "topics": [

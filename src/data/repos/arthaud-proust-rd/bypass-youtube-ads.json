@@ -4,7 +4,7 @@
   "description": "Chromium extension to Bypass Youtube Ads by reloading video page until there is no ads.",
   "fork": false,
   "full_name": "arthaud-proust-rd/bypass-youtube-ads",
-  "homepage": "",
+  "homepage": null,
   "language": "JavaScript",
   "private": false,
   "topics": [

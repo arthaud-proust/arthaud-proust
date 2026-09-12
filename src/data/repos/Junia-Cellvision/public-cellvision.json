@@ -4,7 +4,7 @@
   "description": "Automatiser l'étude des facteurs influant sur la mesure des signaux électro-physiologiques, en segmentant les positions des cellules et en les corrèlant avec les positions des électrodes",
   "fork": false,
   "full_name": "Junia-Cellvision/public-cellvision",
-  "homepage": "",
+  "homepage": null,
   "language": "Python",
   "private": false,
   "topics": [

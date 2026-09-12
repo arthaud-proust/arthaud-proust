@@ -1,5 +1,5 @@
 {
-  "archived": false,
+  "archived": true,
   "created_at": "2021-09-04T21:48:32Z",
   "description": "Attach listeners to your variables",
   "fork": false,

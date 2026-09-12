@@ -64,7 +64,6 @@ arthaud-proust-archive/on-demand-deployment-tool
 arthaud-proust-junia-isen/bigdata-tp2
 arthaud-proust-junia-isen/Funky_Food_PROUST_Arthaud
 arthaud-proust-junia-isen/hello-world
-arthaud-proust-junia-isen/learn-git
 arthaud-proust-junia-isen/maven-repository
 arthaud-proust-junia-isen/mqtt
 arthaud-proust-junia-isen/project-sound-levels-on-8x8-led-matrix
@@ -93,12 +92,14 @@ arthaud-proust/climb-room-simulation
 arthaud-proust/com.lubbockphotos
 arthaud-proust/dev.arthaud.chess
 arthaud-proust/dev.arthaud.life
+arthaud-proust/dev.arthaud.life-history
 arthaud-proust/dev.arthaud.metatags
 arthaud-proust/dev.arthaud.pendulum
 arthaud-proust/dev.arthaud.tunnel
 arthaud-proust/display.arthaud.dev
 arthaud-proust/hugo-partials-defs
 arthaud-proust/martine
+arthaud-proust/offline-docs
 arthaud-proust/simple-portfolio
 arthaud-proust/spectre.arthaud.dev
 arthaud-proust/traffic-jam.arthaud.dev

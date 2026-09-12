@@ -1,0 +1,16 @@
+{
+  "archived": false,
+  "created_at": "2026-09-11T08:03:01Z",
+  "description": "Créez facilement une frise chronologique de moments importants pour le suivi psychologique",
+  "fork": false,
+  "full_name": "arthaud-proust/dev.arthaud.life-history",
+  "homepage": "https://life-history.arthaud.dev/",
+  "language": "TypeScript",
+  "private": false,
+  "topics": [
+    "editor",
+    "health",
+    "timeline"
+  ],
+  "start_date": "2026-09-11T07:19:04Z"
+}

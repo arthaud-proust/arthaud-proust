@@ -1,0 +1,21 @@
+{
+  "archived": false,
+  "created_at": "2026-08-29T13:02:01Z",
+  "description": "Search accross docs offline",
+  "fork": false,
+  "full_name": "arthaud-proust/offline-docs",
+  "homepage": null,
+  "language": "Vue",
+  "private": false,
+  "topics": [
+    "css",
+    "filamentphp",
+    "html",
+    "js",
+    "laravel",
+    "mdn",
+    "php",
+    "tailwindcss"
+  ],
+  "start_date": "2026-08-29T12:59:20Z"
+}

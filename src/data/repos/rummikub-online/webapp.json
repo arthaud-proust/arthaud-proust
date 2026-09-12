@@ -4,7 +4,7 @@
   "description": "Web version of Rummikub game",
   "fork": false,
   "full_name": "rummikub-online/webapp",
-  "homepage": "",
+  "homepage": null,
   "language": "TypeScript",
   "private": false,
   "topics": [

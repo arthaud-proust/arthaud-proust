@@ -1,10 +1,10 @@
 {
-  "archived": false,
+  "archived": true,
   "created_at": "2024-12-04T22:03:24Z",
   "description": "Help my sister to manage clothes between your homes (separated families, boarding school). Great UX exercice",
   "fork": false,
   "full_name": "arthaud-proust-archive/dev.arthaud.dressing.v2",
-  "homepage": "",
+  "homepage": null,
   "language": "PHP",
   "private": false,
   "topics": [
