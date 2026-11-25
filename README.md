@@ -37,7 +37,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
   - Développement de fonctionnalités attendues par le marché (solo, revue par les pairs)
 - <span>2024 à 2026</span>
   Développeur fullstack (Ruby on Rails & VueJs) en apprentissage à [Comeen](https://comeen.com)
-  - Optimisation et maintenance renforcée via la refonte de la carte interactive permettant d'afficher les bureaux et les salles de réunions (100 000+ bureaux affichés sans lag, consommation mémoire réduire par 2, architecture extensible)
+  - Optimisation et maintenance renforcée via la refonte de la carte interactive affichant les bureaux et salles de réunions (100 000+ bureaux affichés sans lag, consommation mémoire réduite par 2, architecture extensible)
   - Développement de la confirmation automatique des réservations de salles pour Microsoft Teams Rooms
   - Migration de Nuxt2 à Nuxt3 (~50 000 lignes de code), gain de temps avec un prompt IA custom (équipe de 3)
 - <span>2022 à 2024</span>
