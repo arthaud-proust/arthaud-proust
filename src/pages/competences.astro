@@ -1,19 +1,18 @@
 ---
+import LevelIcon from "@/components/LevelIcon.astro";
 import SkillsMap from "@/components/SkillsMap.astro";
+import Tag from "@/components/Tag.astro";
 import Layout from "@/layouts/Layout.astro";
 import passeport from "../data/passeport.json";
 
 // Échelle de passeport.dev (le niveau 4 n'existe pas)
 const LEVELS: Record<number, string> = {
+    1: "Jamais pratiqué",
     2: "Pas autonome",
     3: "Autonome",
     5: "Maîtrise",
 };
-
-// Les compétences "Jamais pratiqué" (niveau 1) ne sont pas affichées
-const skills = passeport.skills
-    .filter((s) => s.level > 1)
-    .sort((a, b) => b.level - a.level);
+const skills = [...passeport.skills].sort((a, b) => b.level - a.level);
 
 const byCategory = skills.reduce<Record<string, typeof skills>>((acc, s) => {
     (acc[s.category] ??= []).push(s);
@@ -27,6 +26,61 @@ const categories = Object.keys(byCategory).sort((a, b) => {
 });
 
 const [year, month, day] = passeport.exportedAt.split("-");
+
+// Technologies : celles de passeport.dev + langages et topics des projets GitHub
+type Repo = { language: string | null; topics: string[] };
+const repos = Object.values(
+    import.meta.glob<Repo>("../data/repos/**/*.json", { eager: true, import: "default" }),
+);
+
+// Clé commune pour fusionner "Vue", "Vuejs", "vuejs", "tailwindcss" et "Tailwind"...
+const ALIASES: Record<string, string> = { tailwindcss: "tailwind", filamentphp: "filament" };
+const techKey = (name: string) => {
+    const key = name.toLowerCase().replace(/[^a-z0-9#+]/g, "").replace(/(?<=.)js$/, "");
+    return ALIASES[key] ?? key;
+};
+
+// Topics GitHub qui sont des technologies (les autres sont des sujets : "website", "chess"...)
+const TECH_TOPICS: Record<string, string> = {
+    laravel: "Laravel",
+    hugo: "Hugo",
+    unity: "Unity",
+    three: "Three.js",
+    tailwind: "Tailwind",
+    react: "React",
+    next: "Next.js",
+    nuxt: "Nuxt",
+    jekyll: "Jekyll",
+    filament: "Filament",
+    symfony: "Symfony",
+    socketio: "Socket.io",
+    livewire: "Livewire",
+    inertia: "Inertia",
+    node: "NodeJs",
+    rails: "Rails",
+    openlayers: "OpenLayers",
+};
+const IGNORED_LANGUAGES = new Set(["tex", "cartocss", "dockerfile"]);
+
+// Les noms de passeport.dev sont prioritaires sur ceux des projets
+const techs = new Map<string, { name: string; projects: number }>(
+    passeport.technologies.map((t) => [techKey(t.name), { name: t.name, projects: 0 }]),
+);
+repos.forEach((repo) => {
+    // Map par clé : un projet ne compte qu'une fois par techno
+    const repoTechs = new Map<string, string>();
+    if (repo.language && !IGNORED_LANGUAGES.has(techKey(repo.language)))
+        repoTechs.set(techKey(repo.language), repo.language);
+    repo.topics.forEach((topic) => {
+        const key = techKey(topic);
+        if (TECH_TOPICS[key]) repoTechs.set(key, TECH_TOPICS[key]);
+    });
+    repoTechs.forEach((name, key) => {
+        if (!techs.has(key)) techs.set(key, { name, projects: 0 });
+        techs.get(key)!.projects++;
+    });
+});
+const technologies = [...techs.values()].sort((a, b) => b.projects - a.projects);
 ---
 
 <Layout
@@ -37,45 +91,131 @@ const [year, month, day] = passeport.exportedAt.split("-");
         <a href="/">Retourner à l'accueil</a>
 
         <h1>Compétences</h1>
-        <p>
-            Auto-évaluation réalisée sur{" "}
-            <a href="https://passeport.dev" target="_blank" rel="noreferrer noopener">passeport.dev</a>,
-            exportée le {day}/{month}/{year}.
-        </p>
 
         <SkillsMap />
 
-        <h2>Technologies</h2>
-        <ul class="tags">
-            {passeport.technologies.map((t) => <li>{t.name}</li>)}
+        <article data-group>
+            <h2>Technologies</h2>
+            <ul class="tags">
+                {technologies.map((t) => (
+                    <li data-search={`${t.name} technologies`.toLowerCase()}>
+                        <Tag
+                            variant="primary"
+                            title={t.projects ? `Utilisé dans ${t.projects} projet${t.projects > 1 ? "s" : ""}` : undefined}
+                        >
+                            {t.name}
+                            {t.projects > 0 && <small>{t.projects}</small>}
+                        </Tag>
+                    </li>
+                ))}
+            </ul>
+        </article>
+
+        <ul class="legend" aria-hidden="true">
+            {[1, 2, 3, 5].map((level) => (
+                <li>
+                    <LevelIcon level={level} label="" />
+                    {LEVELS[level]}
+                </li>
+            ))}
         </ul>
 
         {
             categories.map((category) => (
-                <article>
+                <article data-group>
                     <h2>{category}</h2>
                     <ul>
                         {byCategory[category].map((s) => (
-                            <li>
+                            <li
+                                data-search={[s.name, category, LEVELS[s.level], s.wantToLearn ? "je veux progresser" : ""]
+                                    .join(" ")
+                                    .toLowerCase()}
+                            >
+                                <LevelIcon level={s.level} label={LEVELS[s.level]} />
                                 <span>{s.name}</span>
-                                <span class:list={["level", `level-${s.level}`]}>
-                                    {LEVELS[s.level]}
-                                </span>
-                                {s.wantToLearn && <span class="learn">Je veux progresser</span>}
+                                {s.wantToLearn && <Tag variant="outline">Je veux progresser</Tag>}
                             </li>
                         ))}
                     </ul>
                 </article>
             ))
         }
+
+        <p id="no-results" hidden>La recherche n'a donné aucun résultat.</p>
+
+        <input
+            type="search"
+            id="search"
+            placeholder="Rechercher une compétence, une catégorie, un niveau..."
+            aria-label="Rechercher une compétence, une catégorie, un niveau..."
+            autocomplete="off"
+        />
+
+        <p class="source">
+            Auto-évaluation réalisée sur{" "}
+            <a href="https://passeport.dev" target="_blank" rel="noreferrer noopener">passeport.dev</a>,
+            exportée le {day}/{month}/{year}.
+        </p>
     </section>
 </Layout>
+<script>
+    const input = document.getElementById("search") as HTMLInputElement;
+    const noResults = document.getElementById("no-results") as HTMLElement;
+    const groups = document.querySelectorAll<HTMLElement>("[data-group]");
+
+    input.addEventListener("input", () => {
+        const query = input.value.toLowerCase().trim();
+        let totalVisible = 0;
+
+        groups.forEach((group) => {
+            let visible = 0;
+            group.querySelectorAll<HTMLElement>("[data-search]").forEach((item) => {
+                const matches = !query || (item.dataset.search ?? "").includes(query);
+                item.hidden = !matches;
+                if (matches) visible++;
+            });
+            group.hidden = visible === 0;
+            totalVisible += visible;
+        });
+
+        noResults.hidden = totalVisible > 0 || !query;
+    });
+</script>
 
 <style lang="sass">
     @use "../assets/styles/variables"
 
     h2
         margin-top: 5rem
+
+    input
+        position: sticky
+        bottom: 1.5rem
+        margin-top: 3rem
+        width: 100%
+        padding: .8rem 1.2rem
+        font-size: 1rem
+        font-family: inherit
+        border: 2px solid variables.$secondary
+        border-radius: 999px
+        outline: none
+        box-sizing: border-box
+        background: variables.$secondary
+        z-index: 10
+
+        &:focus
+            border-color: variables.$primary
+
+    #no-results
+        margin: 8rem 0
+        font-weight: bold
+
+    .source
+        margin-top: 2rem
+        font-size: .9rem
+
+    [hidden]
+        display: none !important
 
     .tags,
     article ul
@@ -86,35 +226,24 @@ const [year, month, day] = passeport.exportedAt.split("-");
         > li
             margin-top: 0
 
-    .tags > li
-        font-size: .9rem
-        border-radius: 999px
-        padding: .4rem .8rem
-        background: variables.$primary
-        color: variables.$light
-
-    article ul
+    article ul:not(.tags)
         flex-direction: column
 
+    article ul:not(.tags),
+    .legend
         > li
             display: flex
             flex-wrap: wrap
             align-items: center
-            gap: .5rem
+            gap: .5rem .8rem
 
-    .level,
-    .learn
-        font-size: .8rem
-        border-radius: 999px
-        padding: .2rem .7rem
+    .legend
+        margin-top: 5rem
+        display: flex
+        flex-wrap: wrap
+        gap: .5rem 2rem
+        font-size: .9rem
 
-    .level
-        background: variables.$secondary
-
-    .level-5
-        background: variables.$primary
-        color: variables.$light
-
-    .learn
-        border: 1px solid variables.$primary
+        > li
+            margin-top: 0
 </style>

@@ -1,4 +1,5 @@
 ---
+import Tag from "@/components/Tag.astro";
 import Layout from "@/layouts/Layout.astro";
 
 type Repo = {
@@ -122,16 +123,16 @@ function formatDate(iso: string) {
                                     repo.private) && (
                                     <div class="repo-tags">
                                         {repo.language && (
-                                            <span class="lang">
+                                            <Tag variant="primary">
                                                 {repo.language}
-                                            </span>
+                                            </Tag>
                                         )}
 
                                         {repo.topics.map((topic) => (
-                                            <span>{topic}</span>
+                                            <Tag>{topic}</Tag>
                                         ))}
 
-                                        {repo.private && <span>Privé</span>}
+                                        {repo.private && <Tag>Privé</Tag>}
                                     </div>
                                 )}
                             </article>
@@ -240,14 +241,4 @@ function formatDate(iso: string) {
                 display: flex
                 gap: .5rem
                 flex-wrap: wrap
-
-                > span
-                    font-size: .8rem
-                    border-radius: 999px
-                    padding: .4rem .8rem
-                    background: variables.$secondary
-
-                    &.lang
-                        background: variables.$primary
-                        color: variables.$light
 </style>

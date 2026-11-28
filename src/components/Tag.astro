@@ -1,0 +1,36 @@
+---
+interface Props {
+    variant?: "primary" | "secondary" | "outline";
+    title?: string;
+}
+
+const { variant = "secondary", title } = Astro.props;
+---
+
+<span class:list={["tag", variant]} title={title}><slot /></span>
+
+<style lang="sass">
+    @use "../assets/styles/variables"
+
+    .tag
+        display: inline-block
+        font-size: .8rem
+        line-height: 1.2
+        border-radius: 999px
+        padding: .4rem .8rem
+        border: 1px solid transparent
+
+    .primary
+        background: variables.$primary
+        color: variables.$light
+
+    .secondary
+        background: variables.$secondary
+
+    .outline
+        border-color: variables.$primary
+
+    .tag :global(small)
+        margin-left: .4rem
+        opacity: .7
+</style>

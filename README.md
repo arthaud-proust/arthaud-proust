@@ -145,10 +145,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 
 </article>
 
-## Tous les projets
-
-Retrouvez la [liste complète de mes projets](/projets)
-
-## Compétences
-
-Retrouvez mon [auto-évaluation détaillée](/competences)
+<nav class="buttons">
+  <a class="button" href="/projets">Voir tous les projets</a>
+  <a class="button secondary" href="/competences">Voir mes compétences</a>
+</nav>

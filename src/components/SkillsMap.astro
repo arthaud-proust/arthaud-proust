@@ -3,20 +3,23 @@
 // empilé de 1 à 5 anneaux selon le score de la catégorie.
 import passeport from "../data/passeport.json";
 
-// Ordre (sens horaire depuis midi) et couleurs repris de passeport.dev
+// Ordre (sens horaire depuis midi) repris de passeport.dev. Couleurs adaptées pour l'accessibilité :
+// toutes uniques, contraste >= 4.5:1 sur le fond (les libellés sont de la couleur du secteur),
+// et secteurs voisins distincts en protanopie, deutéranopie et tritanopie
+// (simulation Machado 2009, deltaE >= 20).
 const CATEGORIES: [string, string][] = [
     ["Continuous Integration", "#0EAD69"],
     ["Observability", "#FFDA3E"],
-    ["Software Documentation", "#EE4266"],
-    ["Programming", "#3772FF"],
+    ["Software Documentation", "#FF5C7A"],
+    ["Programming", "#6B93FF"],
     ["Cloud Infrastructure & Network", "#F2CEE6"],
-    ["System Design & Architecture", "#AD5CA2"],
+    ["System Design & Architecture", "#C77DBB"],
     ["Data Science & Machine Learning", "#FF6700"],
     ["Data Engineering", "#61DAFB"],
-    ["API Design", "#4F4789"],
-    ["Frontend", "#0A66C2"],
-    ["Mobile Development", "#F2CEE6"],
-    ["Application Testing", "#AD5CA2"],
+    ["API Design", "#E0E0E0"],
+    ["Frontend", "#4C9AFF"],
+    ["Mobile Development", "#C5E063"],
+    ["Application Testing", "#FF8FB1"],
 ];
 
 // shortcut: formule déduite du rendu de passeport.dev (elle redonne les 12 secteurs observés
@@ -54,7 +57,7 @@ function wrap(label: string, max = 16) {
     }, []);
 }
 
-const sectors =CATEGORIES.map(([name, color], i) => {
+const sectors = CATEGORIES.map(([name, color], i) => {
     const count = rings(name);
     const mid = (i + 0.5) * SLICE;
     return {
@@ -63,6 +66,14 @@ const sectors =CATEGORIES.map(([name, color], i) => {
         count,
         paths: Array.from({ length: count }, (_, k) => ringPath(k, i)),
         lines: wrap(name),
+        // Niveaux non atteints : trait fin au milieu du secteur, coupé comme les anneaux
+        guide: Array.from(
+            { length: 5 - count },
+            (_, n) => count + n,
+        )
+            // +1/-1 : le contour de 2px des anneaux mange 1px de chaque côté, même espace visible
+            .map((k) => `M${point((k === 0 ? 4 : RING * k + 4) + 1, mid)}L${point(RING * (k + 1) + 2 - 1, mid)}`)
+            .join(""),
         x: 235 * Math.sin(mid),
         y: -235 * Math.cos(mid),
     };
@@ -82,7 +93,8 @@ const sectors =CATEGORIES.map(([name, color], i) => {
                     {s.paths.map((d) => (
                         <path d={d} />
                     ))}
-                    <text x={s.x} y={s.y} fill={s.color}>
+                    {s.guide && <path class="guide" d={s.guide} style={`stroke: ${s.color}`} />}
+                    <text x={s.x} y={s.y} style={`fill: ${s.color}`}>
                         {s.lines.map((line, n) => (
                             <tspan x={s.x} dy={n === 0 ? `${-(s.lines.length - 1) * 0.6}em` : "1.2em"}>
                                 {line}
@@ -111,8 +123,12 @@ const sectors =CATEGORIES.map(([name, color], i) => {
         stroke: #252525
         stroke-width: 2
 
+    path.guide
+        stroke-width: 1
+        opacity: .5
+
     text
-        font-size: 13px
+        font-size: 14px
         text-anchor: middle
         dominant-baseline: middle
 </style>

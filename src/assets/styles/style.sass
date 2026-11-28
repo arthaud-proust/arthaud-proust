@@ -130,6 +130,38 @@ a
     margin: -.5rem
     padding: .5rem
 
+a.button
+    display: inline-block
+    margin: 2rem 0 0
+    padding: .8rem 1.4rem
+    border-radius: 999px
+    background: variables.$primary
+    color: variables.$light
+    text-decoration: none
+
+    &:hover,
+    &:focus-visible
+        background: variables.$dark
+        color: variables.$light
+
+    &.secondary
+        background: variables.$secondary
+        color: variables.$dark
+
+        &:hover,
+        &:focus-visible
+            background: variables.$dark
+            color: variables.$light
+
+nav.buttons
+    margin-top: 2rem
+    display: flex
+    flex-wrap: wrap
+    gap: 1rem
+
+    > a.button
+        margin: 0
+
 footer
     margin-top: 12rem
     text-align: center
