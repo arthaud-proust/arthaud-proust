@@ -1,0 +1,120 @@
+---
+import SkillsMap from "@/components/SkillsMap.astro";
+import Layout from "@/layouts/Layout.astro";
+import passeport from "../data/passeport.json";
+
+// Échelle de passeport.dev (le niveau 4 n'existe pas)
+const LEVELS: Record<number, string> = {
+    2: "Pas autonome",
+    3: "Autonome",
+    5: "Maîtrise",
+};
+
+// Les compétences "Jamais pratiqué" (niveau 1) ne sont pas affichées
+const skills = passeport.skills
+    .filter((s) => s.level > 1)
+    .sort((a, b) => b.level - a.level);
+
+const byCategory = skills.reduce<Record<string, typeof skills>>((acc, s) => {
+    (acc[s.category] ??= []).push(s);
+    return acc;
+}, {});
+
+const categories = Object.keys(byCategory).sort((a, b) => {
+    const avg = (c: string) =>
+        byCategory[c].reduce((sum, s) => sum + s.level, 0) / byCategory[c].length;
+    return avg(b) - avg(a);
+});
+
+const [year, month, day] = passeport.exportedAt.split("-");
+---
+
+<Layout
+    title="Compétences - Arthaud Proust"
+    description="Auto-évaluation de mes compétences en développement logiciel, exportée de passeport.dev"
+>
+    <section>
+        <a href="/">Retourner à l'accueil</a>
+
+        <h1>Compétences</h1>
+        <p>
+            Auto-évaluation réalisée sur{" "}
+            <a href="https://passeport.dev" target="_blank" rel="noreferrer noopener">passeport.dev</a>,
+            exportée le {day}/{month}/{year}.
+        </p>
+
+        <SkillsMap />
+
+        <h2>Technologies</h2>
+        <ul class="tags">
+            {passeport.technologies.map((t) => <li>{t.name}</li>)}
+        </ul>
+
+        {
+            categories.map((category) => (
+                <article>
+                    <h2>{category}</h2>
+                    <ul>
+                        {byCategory[category].map((s) => (
+                            <li>
+                                <span>{s.name}</span>
+                                <span class:list={["level", `level-${s.level}`]}>
+                                    {LEVELS[s.level]}
+                                </span>
+                                {s.wantToLearn && <span class="learn">Je veux progresser</span>}
+                            </li>
+                        ))}
+                    </ul>
+                </article>
+            ))
+        }
+    </section>
+</Layout>
+
+<style lang="sass">
+    @use "../assets/styles/variables"
+
+    h2
+        margin-top: 5rem
+
+    .tags,
+    article ul
+        display: flex
+        flex-wrap: wrap
+        gap: .5rem
+
+        > li
+            margin-top: 0
+
+    .tags > li
+        font-size: .9rem
+        border-radius: 999px
+        padding: .4rem .8rem
+        background: variables.$primary
+        color: variables.$light
+
+    article ul
+        flex-direction: column
+
+        > li
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            gap: .5rem
+
+    .level,
+    .learn
+        font-size: .8rem
+        border-radius: 999px
+        padding: .2rem .7rem
+
+    .level
+        background: variables.$secondary
+
+    .level-5
+        background: variables.$primary
+        color: variables.$light
+
+    .learn
+        border: 1px solid variables.$primary
+</style>

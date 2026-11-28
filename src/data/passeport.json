@@ -1,0 +1,725 @@
+{
+  "exportedAt": "2026-11-28",
+  "technologies": [
+    { "name": "Postgresql", "level": 3 },
+    { "name": "Tailwind", "level": 3 },
+    { "name": "Git", "level": 3 },
+    { "name": "Vuejs", "level": 3 },
+    { "name": "TypeScript", "level": 3 },
+    { "name": "MySQL", "level": 3 },
+    { "name": "NodeJs", "level": 3 },
+    { "name": "Rails", "level": 3 },
+    { "name": "Laravel", "level": 3 }
+  ],
+  "skills": [
+    {
+      "category": "Programming",
+      "name": "OOP",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Code Reviews",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Semantic versionning",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Test coverage",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Linter",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "CI servers",
+      "level": 3,
+      "wantToLearn": true
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Clean PR",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Clean commit",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Feature based branching (gitflow)",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Trunk based development",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Advanced git commands",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Basic git commands",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Indexing",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Prompt Engineering",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Dependency Injection",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Third-party Libraries",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Instrumentation Testing",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Fragmentation",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Deeplinks & Notifications",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "App Size",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Runtime performances",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Build performances",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Modularization",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Low-level development",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Cross-platform tools",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Offline support",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Declarative UI Frameworks",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Mobile Development",
+      "name": "Release Cycle",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "Monitoring",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "Tracing",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "Logging",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "Disk Memory / RAM",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "RUM",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "Server Configuration",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "SSH",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "Terminal / Shell",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "CD Pipelines",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "Public cloud provider management",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "Orchestration",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "Infrastructure as Code",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Cloud Infrastructure & Network",
+      "name": "Docker",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Pub/sub architecture",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Event Driven Architecture",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Caching strategies",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Modular Monolith",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Microservices",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "CQRS",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "DDD",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Architecture Hexagonale",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "System Design & Architecture",
+      "name": "Clean Architecture",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "Handling CORS",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "API Gateway",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "Authorization strategy",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "Authentication strategies",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "Handling Errors",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "GraphQL APIs",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "REST API",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Responsive",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Offline",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Accessibility",
+      "level": 3,
+      "wantToLearn": false
+    },
+    { "category": "Frontend", "name": "SSR", "level": 3, "wantToLearn": false },
+    {
+      "category": "Frontend",
+      "name": "Advanced CSS Animations",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "CSS Techniques",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Micro-frontend architecture",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Lazy Loading",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Web performance",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Frontend build configuration",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "State Management",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Frontend",
+      "name": "Framework/lib front",
+      "level": 5,
+      "wantToLearn": false
+    },
+    {
+      "category": "Application Testing",
+      "name": "End-to-end tests",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Application Testing",
+      "name": "Integration tests",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Application Testing",
+      "name": "BDD",
+      "level": 2,
+      "wantToLearn": true
+    },
+    {
+      "category": "Application Testing",
+      "name": "TDD",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Application Testing",
+      "name": "Unit Tests",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Application Testing",
+      "name": "Testing Objects",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "Dependency Graph",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Programming",
+      "name": "BigO complexity",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Programming",
+      "name": "Algorithms",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Programming",
+      "name": "Design patterns",
+      "level": 3,
+      "wantToLearn": true
+    },
+    {
+      "category": "Programming",
+      "name": "SOLID principles",
+      "level": 3,
+      "wantToLearn": true
+    },
+    {
+      "category": "Programming",
+      "name": "Static typing",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "3rd Party Model Integration",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Continuous Model Training",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Supervised Learning Models",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "A/B Testing",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Data Analysis",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Data Cleansing",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Privacy By Design",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Stream Processing",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Data Warehousing",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Data Pipelines",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Programming",
+      "name": "FP",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "API Design",
+      "name": "Idempotency",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "SQL",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Distributed Databases",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Message Brokers",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Orchestrated ML Experimentations",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "ML Pipelines",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Model Serving",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Model Training & Analysis",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Feature Engineering",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Neural Network Models",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Science & Machine Learning",
+      "name": "Unsupervised Learning Models",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "Release Notes",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "ADR",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "Storybook",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "Open API / Swagger",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "C4 Model",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "UML",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "Contributing Principles",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Software Documentation",
+      "name": "Readme",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Programming",
+      "name": "Multithreading",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Programming",
+      "name": "Asynchronous programming",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "DORA Metrics",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "Web Vitals",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Observability",
+      "name": "Alerting",
+      "level": 2,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Graph Modelisation & Databases",
+      "level": 1,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Document Modelisation & Databases",
+      "level": 3,
+      "wantToLearn": false
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Relational Modelisation & Databases",
+      "level": 3,
+      "wantToLearn": false
+    }
+  ]
+}

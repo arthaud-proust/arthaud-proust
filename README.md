@@ -148,3 +148,7 @@ Enfin, je prends en compte les [retours sur mon travail](/on-a-travaille-ensembl
 ## Tous les projets
 
 Retrouvez la [liste complète de mes projets](/projets)
+
+## Compétences
+
+Retrouvez mon [auto-évaluation détaillée](/competences)
